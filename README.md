@@ -32,11 +32,130 @@ El proyecto implementa una arquitectura **Code-First Ontology**, formalizando el
 * **SKOS (Simple Knowledge Organization System):** Manejo de variantes ortográficas coloniales y nombres canónicos (`prefLabel`, `altLabel`).
 * **OHAC (Ontología Histórica Andino-Colonial):** Vocabulario propio para llenar vacíos sociopolíticos del período virreinal tardío (*Ayllus, caciques principales, segundas, indios tributarios, forasteros, reservados*).
 
-### ⚖️ Regla de Oro Epistémica (Reificación de Testimonios)
-En un proceso judicial histórico, **una acusación, sospecha o testimonio jamás se registra como un hecho objetivo probatorio**. El sistema reifica toda declaración subjetiva en un nodo `AfirmacionHistorica`, exigiendo:
-1. `cita_textual_evidencia`: Cita literal del texto manuscrito (mínimo 10 caracteres). Sin cita no hay nodo.
-2. `declarante_id`: Persona física que emitió la declaración.
-3. `estado_epistemologico`: `Alegato_No_Comprobado`, `Confirmado_Oficial`, `Desmentido_Falso`, o `En_Disputa`.
+---
+
+## 🔄 Flujo del Pipeline de Extracción
+
+El pipeline automatizado se divide en 3 etapas desacopladas y reanudables:
+
+```mermaid
+flowchart TD
+    subgraph Entrada
+        A["📄 Transcripción Paleográfica<br/>(corpus/*.txt)"]
+    end
+
+    subgraph Fase 1: Segmentación
+        B["⚙️ segmenter.py<br/>(Detección de folios '#', fechas y actos procesales)"]
+        C[("data/segmentos.jsonl<br/>(21 bloques clasificados)")]
+    end
+
+    subgraph Fase 2: Extracción Estructurada con LLM
+        D["🤖 extractor.py + Gemini 3.6 Flash<br/>(Guía estricta con JSON Schema Pydantic v2)"]
+        E["🛡️ Validador Ontológico Pydantic<br/>(Cita literal obligatoria >= 10 chars)"]
+        F[("data/extracciones.jsonl<br/>(Entidades y Afirmaciones)")]
+    end
+
+    subgraph Fase 3: Materialización del Grafo
+        G["⚙️ graph_builder.py<br/>(Cálculo de relaciones e inserción MERGE)"]
+        H[("Neo4j Database<br/>(259 nodos, 608 aristas)")]
+        I[("data/grafo.json<br/>(Respaldo estático JSON)")]
+    end
+
+    A --> B --> C --> D --> E --> F --> G --> H
+    G --> I
+```
+
+---
+
+## 📐 Esquema Ontológico del Grafo (Metamodelo)
+
+Las clases y relaciones del grafo siguen el estándar ISO 21127 (CIDOC CRM) y RiC-O:
+
+```mermaid
+classDiagram
+    direction TB
+    class FuenteArchivistica {
+        +fondo: String
+        +serie: String
+        +legajo: Integer
+        +expediente: Integer
+        +folio: Integer
+    }
+    class Actor {
+        +nombre: String
+        +variantes: List
+        +condicion: String
+        +cargos: List
+    }
+    class Lugar {
+        +nombre: String
+        +tipo: String
+        +jurisdiccion: String
+    }
+    class ObjetoBien {
+        +descripcion: String
+        +tipo: String
+        +cantidad: String
+    }
+    class EventoInstitucional {
+        +tipo_evento: String
+        +fecha: String
+    }
+    class EventoTestimoniado {
+        +tipo_evento: String
+        +fecha_alegada: String
+    }
+    class AfirmacionHistorica {
+        +tipo_declaracion: String
+        +estado: String
+        +cita: String
+        +confianza: Float
+    }
+
+    Actor --> FuenteArchivistica : MENCIONADO_EN
+    Lugar --> FuenteArchivistica : MENCIONADO_EN
+    ObjetoBien --> FuenteArchivistica : MENCIONADO_EN
+    EventoInstitucional --> FuenteArchivistica : DOCUMENTADO_EN
+    AfirmacionHistorica --> FuenteArchivistica : EXTRAIDO_DE
+
+    Actor --> EventoInstitucional : PARTICIPA_EN {rol}
+    EventoInstitucional --> Lugar : OCURRE_EN
+    EventoInstitucional --> ObjetoBien : INVOLUCRA_BIEN
+
+    Actor --> AfirmacionHistorica : DECLARO
+    AfirmacionHistorica --> EventoTestimoniado : DESCRIBE_EVENTO
+    Actor --> EventoTestimoniado : ROL_EN_EVENTO {rol}
+    EventoTestimoniado --> Lugar : OCURRE_EN
+    EventoTestimoniado --> ObjetoBien : INVOLUCRA_BIEN
+    AfirmacionHistorica --> AfirmacionHistorica : CONTRADICE / RATIFICA
+```
+
+---
+
+## ⚖️ Regla de Oro Epistémica: Modelado de Testimonios Judiciales
+
+En un litigio criminal colonial, **una acusación o testimonio no es un hecho fáctico verificado**. Si se modelara directamente como hecho, el grafo registraría mentiras o calumnias como si hubieran ocurrido:
+
+```mermaid
+flowchart LR
+    subgraph Modelo Ingenuo o Incorrecto
+        X[Isidro Cano] -->|ASESINO A| Y[Chuquitapa]
+        style X fill:#ffcccc
+        style Y fill:#ffcccc
+    end
+
+    subgraph Nuestro Modelo Epistémico Riguroso
+        A[Isidro Cano] -->|DECLARO| B["Afirmación Histórica<br/>(Estado: Alegato_No_Comprobado)"]
+        B -->|EVIDENCIA LITERAL| C["Cita: 'mandó a medianoche a matarle...'"]
+        B -->|DESCRIBE_EVENTO| D[Evento Testimoniado: Intento_Homicidio]
+        D -->|ROL_EN_EVENTO: Agresor| E[Chuquitapa]
+        style A fill:#d4edda
+        style B fill:#d1ecf1
+        style C fill:#fff3cd
+        style D fill:#f8d7da
+        style E fill:#d4edda
+    end
+```
 
 ---
 
