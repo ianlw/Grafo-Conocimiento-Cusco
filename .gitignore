@@ -1,0 +1,20 @@
+# Entorno virtual
+.venv/
+env/
+venv/
+
+# Caché de Python y testing
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Variables de entorno y secretos locales — NUNCA subir al repositorio
+.env
+*.pem
+
+# Archivos de sistema operativo e IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

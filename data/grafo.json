@@ -1,0 +1,5370 @@
+{
+  "nodos": [
+    {
+      "id": "exp_ccc_14_18_f01_seg01",
+      "etiqueta": "FuenteArchivistica",
+      "fondo": "Intendencia",
+      "serie": "Causas Criminales",
+      "legajo": 14,
+      "expediente": 18,
+      "folio": 1
+    },
+    {
+      "id": "persona_manuel_mancachoque",
+      "etiqueta": "Actor",
+      "nombre": "Manuel Mancachoque",
+      "variantes": [
+        "Manuel Mancachoque"
+      ],
+      "tipo": "Persona",
+      "condicion": "IndioTributario",
+      "cargos": []
+    },
+    {
+      "id": "persona_andres_chuquitapa",
+      "etiqueta": "Actor",
+      "nombre": "Andrés Chuquitapa",
+      "variantes": [
+        "Andres Chuquitapa",
+        "Andres chuquitapa",
+        "Don Andres Chuquitapa"
+      ],
+      "tipo": "Persona",
+      "condicion": "Desconocido",
+      "cargos": [
+        "CaciqueRecaudador"
+      ]
+    },
+    {
+      "id": "ayllu_tinta",
+      "etiqueta": "Actor",
+      "nombre": "Ayllu de Tinta",
+      "variantes": [
+        "Ayllos Tinta"
+      ],
+      "tipo": "Ayllu_Comunidad",
+      "cargos": []
+    },
+    {
+      "id": "institucion_real_hacienda",
+      "etiqueta": "Actor",
+      "nombre": "Real Hacienda",
+      "variantes": [],
+      "tipo": "Institucion_Gobierno",
+      "cargos": []
+    },
+    {
+      "id": "lugar_tinta",
+      "etiqueta": "Lugar",
+      "nombre": "Tinta",
+      "tipo": "Pueblo",
+      "jurisdiccion": "Partido de Tinta"
+    },
+    {
+      "id": "objeto_objeto_matricula_tributarios",
+      "etiqueta": "ObjetoBien",
+      "descripcion": "Matrícula en que se numera en clase de tributarios",
+      "tipo": "Indios_Tributarios"
+    },
+    {
+      "id": "evento_apertura_expediente_1806",
+      "etiqueta": "EventoInstitucional",
+      "tipo": "ResolucionJudicial",
+      "categoria": "Fiscal_Tributario",
+      "fecha": "Agosto 26 de 1806"
+    },
+    {
+      "id": "evento_denuncia_maltratos_chuquitapa",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Denuncia",
+      "fecha_alegada": "Agosto 26 de 1806"
+    },
+    {
+      "id": "afirmacion_01",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "ResolucionOficial",
+      "estado": "Desmentido_Falso",
+      "cita": "resultando de este ser menos conforme a la verdad las quejas dadas por Manuel Guancoichoque Yndio del Pueblo de Tinta contra el recaudador de tributos",
+      "folio": 33,
+      "confianza": 1.0
+    },
+    {
+      "id": "exp_ccc_14_18_f02_seg02",
+      "etiqueta": "FuenteArchivistica",
+      "fondo": "Intendencia",
+      "serie": "Causas Criminales",
+      "legajo": 14,
+      "expediente": 18,
+      "folio": 2
+    },
+    {
+      "id": "persona_isidro_cano",
+      "etiqueta": "Actor",
+      "nombre": "Isidro Cano",
+      "variantes": [
+        "ysidro cano"
+      ],
+      "tipo": "Persona",
+      "condicion": "Desconocido",
+      "cargos": [
+        "Primer Sargento",
+        "Sargento Primero"
+      ]
+    },
+    {
+      "id": "persona_guancachoque",
+      "etiqueta": "Actor",
+      "nombre": "Guancachoque",
+      "variantes": [
+        "Guancachoque"
+      ],
+      "tipo": "Persona",
+      "condicion": "IndioTributario",
+      "cargos": []
+    },
+    {
+      "id": "persona_chuquitapa",
+      "etiqueta": "Actor",
+      "nombre": "Chuquitapa",
+      "variantes": [
+        "chuquitapa",
+        "Chiquitas"
+      ],
+      "tipo": "Persona",
+      "cargos": []
+    },
+    {
+      "id": "persona_antonio_reparas",
+      "etiqueta": "Actor",
+      "nombre": "Antonio Reparas",
+      "variantes": [
+        "Antonio Reparas"
+      ],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": [
+        "Corregidor"
+      ]
+    },
+    {
+      "id": "persona_miguel_orey",
+      "etiqueta": "Actor",
+      "nombre": "Miguel Orey",
+      "variantes": [
+        "Miguel Orey"
+      ],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": [
+        "Capitán"
+      ]
+    },
+    {
+      "id": "persona_tupa_amaro",
+      "etiqueta": "Actor",
+      "nombre": "Túpac Amaru",
+      "variantes": [
+        "Tupa Amaro"
+      ],
+      "tipo": "Persona",
+      "condicion": "Noble_Cacique",
+      "cargos": [
+        "Rebelde"
+      ]
+    },
+    {
+      "id": "colectivo_indios_tinta",
+      "etiqueta": "Actor",
+      "nombre": "Indios del Pueblo de Tinta",
+      "variantes": [
+        "indios",
+        "indiada",
+        "tributarios"
+      ],
+      "tipo": "Familia_Colectivo",
+      "condicion": "IndioTributario",
+      "cargos": []
+    },
+    {
+      "id": "lugar_carcel_tinta",
+      "etiqueta": "Lugar",
+      "nombre": "carcel",
+      "tipo": "Edificio_Institucion",
+      "jurisdiccion": "Pueblo de Tinta"
+    },
+    {
+      "id": "lugar_plaza_tinta",
+      "etiqueta": "Lugar",
+      "nombre": "plaza",
+      "tipo": "Otro",
+      "jurisdiccion": "Tinta"
+    },
+    {
+      "id": "objeto_objeto_chacras",
+      "etiqueta": "ObjetoBien",
+      "descripcion": "Chacras o tierras perjudicadas a los indios",
+      "tipo": "Inmueble_Tierra"
+    },
+    {
+      "id": "evento_certificacion_oficial_cano",
+      "etiqueta": "EventoInstitucional",
+      "tipo": "ResolucionJudicial",
+      "categoria": "Judicial_Conflictos",
+      "fecha": "1 de agosto de 1806",
+      "lugar": "lugar_tinta"
+    },
+    {
+      "id": "evento_alboroto_guancachoque",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Tumulto_Alboroto",
+      "fecha_alegada": "1 de agosto de 1806"
+    },
+    {
+      "id": "evento_sospecha_traicion_chuquitapa",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Denuncia"
+    },
+    {
+      "id": "afirmacion_02",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "Acusacion",
+      "estado": "Alegato_No_Comprobado",
+      "cita": "lo  convencieron de falsedad exponiendo que el había querido  conmover y sublevar a todos  los Indios contra su recaudador",
+      "folio": 29,
+      "confianza": 1.0
+    },
+    {
+      "id": "evento_ataque_capitan_orey",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Tumulto_Alboroto",
+      "fecha_alegada": "En tiempo del corregidor don Antonio Reparas"
+    },
+    {
+      "id": "afirmacion_03",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "Acusacion",
+      "estado": "Alegato_No_Comprobado",
+      "cita": "sobre  la conducta  y manejo  de su feligrés Guancachoque  se  inteligenciara Vuestro Señoría Muy  Ilustre   de la  pésima que se le ha  observado , f",
+      "folio": 29,
+      "confianza": 1.0
+    },
+    {
+      "id": "evento_complicidad_tupa_amaro_y_despojo",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Agresion_Fisica",
+      "fecha_alegada": "En tiempo del rebelde Tupa Amaro"
+    },
+    {
+      "id": "afirmacion_04",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "Confesion_Rectificacion",
+      "estado": "Alegato_No_Comprobado",
+      "cita": "las expresiones de que esa misma noche  se alzaron los Yndios todos con barrotes armados a dar muerte a los que cuando  favor de la Real Hacienda ,no ",
+      "folio": 20,
+      "confianza": 1.0
+    },
+    {
+      "id": "exp_ccc_14_18_f03_seg03",
+      "etiqueta": "FuenteArchivistica",
+      "fondo": "Intendencia",
+      "serie": "Causas Criminales",
+      "legajo": 14,
+      "expediente": 18,
+      "folio": 3
+    },
+    {
+      "id": "actor_santiago_cazorla",
+      "etiqueta": "Actor",
+      "nombre": "Santiago Cazorla",
+      "variantes": [
+        "Santiago Cazorla"
+      ],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": [
+        "Sargento primero",
+        "Sargento primero del regimiento de Tinta"
+      ]
+    },
+    {
+      "id": "actor_manuel_huancachoque",
+      "etiqueta": "Actor",
+      "nombre": "Manuel Huancachoque",
+      "variantes": [
+        "Manuel Guancachoque",
+        "Maldonado Ortiz a las Guamcachoque",
+        "Ortis o Guancachoque",
+        "Ortiz"
+      ],
+      "tipo": "Persona",
+      "condicion": "Desconocido",
+      "cargos": []
+    },
+    {
+      "id": "actor_juan_quinones",
+      "etiqueta": "Actor",
+      "nombre": "Juan Quiñones",
+      "variantes": [
+        "Juan Quiñones"
+      ],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": [
+        "Teniente Alguacil"
+      ]
+    },
+    {
+      "id": "actor_andres_chukitapa",
+      "etiqueta": "Actor",
+      "nombre": "Andrés Chukitapa",
+      "variantes": [
+        "Andrés Chukitapa",
+        "Andres Chukitapa"
+      ],
+      "tipo": "Persona",
+      "condicion": "Noble_Cacique",
+      "cargos": [
+        "CaciquePrincipal",
+        "Cacique"
+      ]
+    },
+    {
+      "id": "actor_indios_chukitapa",
+      "etiqueta": "Actor",
+      "nombre": "Indios del cacique Andrés Chukitapa",
+      "variantes": [
+        "indios del cacique don Andrés Chukitapa",
+        "los indios"
+      ],
+      "tipo": "Familia_Colectivo",
+      "condicion": "IndioOriginario",
+      "cargos": []
+    },
+    {
+      "id": "actor_miguel_orey",
+      "etiqueta": "Actor",
+      "nombre": "Miguel Orey",
+      "variantes": [
+        "Miguel Orey"
+      ],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": []
+    },
+    {
+      "id": "actor_javier_aparicio",
+      "etiqueta": "Actor",
+      "nombre": "Javier Aparicio",
+      "variantes": [
+        "Javier Aparicio"
+      ],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": [
+        "Soldado"
+      ]
+    },
+    {
+      "id": "actor_juan_cazorla",
+      "etiqueta": "Actor",
+      "nombre": "Juan Cazorla",
+      "variantes": [
+        "Juan Cazorla"
+      ],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": []
+    },
+    {
+      "id": "lugar_san_pedro_cacha",
+      "etiqueta": "Lugar",
+      "nombre": "San Pedro de Cacha",
+      "tipo": "Pueblo",
+      "jurisdiccion": "Partido de Tinta"
+    },
+    {
+      "id": "objeto_objeto_robo_cacique",
+      "etiqueta": "ObjetoBien",
+      "descripcion": "Robo manifestado del cacique a favor de la Real Hacienda",
+      "tipo": "Dinero_Tributo"
+    },
+    {
+      "id": "evento_emision_certificacion_cazorla",
+      "etiqueta": "EventoInstitucional",
+      "tipo": "Certificacion_Testigo",
+      "categoria": "Judicial_Conflictos"
+    },
+    {
+      "id": "evento_servicio_militar_guamanchoque",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "ServicioMilitar",
+      "fecha_alegada": "1806"
+    },
+    {
+      "id": "afirmacion_servicio_guamanchoque",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "TestimonioDirecto",
+      "estado": "Alegato_No_Comprobado",
+      "cita": "Certifico yo en cuanto puedo y al lugar en derecho como yo sargento primero del regimiento de Tinta de la primera compañía es cierto que Manuel Guaman",
+      "folio": 3,
+      "confianza": 1.0
+    },
+    {
+      "id": "evento_agresion_huancachoque",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Agresion_Fisica"
+    },
+    {
+      "id": "afirmacion_agresion_huancachoque",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "Acusacion",
+      "estado": "Alegato_No_Comprobado",
+      "cita": "al denunciante Manuel Huancachoque, cuasi lo acaban en las calles públicas y plaza los indios del cacique don Andrés Chukitapa a puñetes y puntapiés y",
+      "folio": 3,
+      "confianza": 1.0
+    },
+    {
+      "id": "evento_motin_carcel_tinta",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Tumulto_Alboroto"
+    },
+    {
+      "id": "afirmacion_tumulto_carcel",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "TestimonioDirecto",
+      "estado": "Alegato_No_Comprobado",
+      "cita": "Esa misma noche a las dies o a las once se alzaron los indios en la plaza todos con garrotes allegaron a la puerta de la cárcel a dar muerte a dicho G",
+      "folio": 3,
+      "confianza": 1.0
+    },
+    {
+      "id": "evento_ataque_miguel_orey",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Tumulto_Alboroto"
+    },
+    {
+      "id": "afirmacion_alzamiento_orey",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "Acusacion",
+      "estado": "Alegato_No_Comprobado",
+      "cita": "Este mismo cacique invento el alzamiento contra don Miguel Orey lo mismo hizo embriagar a los indios tan mansos a unos corderos, ponerlos a unos leone",
+      "folio": 3,
+      "confianza": 1.0
+    },
+    {
+      "id": "exp_ccc_14_18_f04_seg04",
+      "etiqueta": "FuenteArchivistica",
+      "fondo": "Intendencia",
+      "serie": "Causas Criminales",
+      "legajo": 14,
+      "expediente": 18,
+      "folio": 4
+    },
+    {
+      "id": "persona_fernando_orue",
+      "etiqueta": "Actor",
+      "nombre": "Fernando Orue",
+      "variantes": [
+        "Fernando Orue"
+      ],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": [
+        "Cabo Primero"
+      ]
+    },
+    {
+      "id": "persona_manuel_huancachoque",
+      "etiqueta": "Actor",
+      "nombre": "Manuel Huancachoque",
+      "variantes": [
+        "Guancachoque",
+        "Manuel Guancoichoque",
+        "yndio Guancachoque"
+      ],
+      "tipo": "Persona",
+      "condicion": "IndioTributario",
+      "cargos": []
+    },
+    {
+      "id": "persona_jose_gabriel_tupac_amaru",
+      "etiqueta": "Actor",
+      "nombre": "Túpac Amaru II",
+      "variantes": [
+        "Tupaamaro"
+      ],
+      "tipo": "Persona",
+      "condicion": "Noble_Cacique",
+      "cargos": []
+    },
+    {
+      "id": "persona_juan_antonio_reparas",
+      "etiqueta": "Actor",
+      "nombre": "Juan Antonio Reparas",
+      "variantes": [
+        "Juan Antonio Reparas"
+      ],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": [
+        "Corregidor"
+      ]
+    },
+    {
+      "id": "objeto_objeto_indios_ocultados",
+      "etiqueta": "ObjetoBien",
+      "descripcion": "Indios tributarios ocultados a favor del soberano y aumento a las reales arcas",
+      "tipo": "Indios_Tributarios"
+    },
+    {
+      "id": "evento_presentacion_declaracion_orue",
+      "etiqueta": "EventoInstitucional",
+      "tipo": "Denuncia",
+      "categoria": "Judicial_Conflictos",
+      "lugar": "lugar_tinta"
+    },
+    {
+      "id": "evento_alboroto_contra_huancachoque",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Agresion_Fisica"
+    },
+    {
+      "id": "afirmacion_01_alboroto_y_agresion",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "TestimonioDirecto",
+      "estado": "Alegato_No_Comprobado",
+      "cita": "es cierto que he visto con mis ojos, mortales el alboroto que hicieron los Indios del Ayllu de tinta contra Manuel Huancachoque",
+      "folio": 4,
+      "confianza": 1.0
+    },
+    {
+      "id": "evento_denuncia_indios_ocultos",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Ocultacion_Tributarios"
+    },
+    {
+      "id": "afirmacion_02_denuncia_ocultacion",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "TestimonioDirecto",
+      "estado": "Alegato_No_Comprobado",
+      "cita": "Que declaro por los Indios ocultados a favor de nuestro soberano y aumento a las reales arcas a dicho denunciante",
+      "folio": 4,
+      "confianza": 1.0
+    },
+    {
+      "id": "evento_alzamiento_chuquitapa",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Tumulto_Alboroto"
+    },
+    {
+      "id": "afirmacion_03_acusacion_chuquitapa",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "Acusacion",
+      "estado": "Alegato_No_Comprobado",
+      "cita": "Como está hecho de hacer alzamiento a dicho Chuquitapa, primero hizo en tiempo del señor corregidor Don Juan Antonio Reparas",
+      "folio": 4,
+      "confianza": 1.0
+    },
+    {
+      "id": "exp_ccc_14_18_f05_seg05",
+      "etiqueta": "FuenteArchivistica",
+      "fondo": "Intendencia",
+      "serie": "Causas Criminales",
+      "legajo": 14,
+      "expediente": 18,
+      "folio": 5
+    },
+    {
+      "id": "actor_martin_cazorla",
+      "etiqueta": "Actor",
+      "nombre": "Martín Cazorla",
+      "variantes": [
+        "Martin Cazorla"
+      ],
+      "tipo": "Persona",
+      "condicion": "Desconocido",
+      "cargos": [
+        "Soldado",
+        "Granadero"
+      ]
+    },
+    {
+      "id": "actor_cacique_anonimo",
+      "etiqueta": "Actor",
+      "nombre": "Cacique (no identificado)",
+      "variantes": [
+        "mi cacique"
+      ],
+      "tipo": "Persona",
+      "condicion": "Noble_Cacique",
+      "cargos": [
+        "CaciquePrincipal"
+      ]
+    },
+    {
+      "id": "actor_indios_comunidad",
+      "etiqueta": "Actor",
+      "nombre": "Indios sublevados",
+      "variantes": [
+        "los indios",
+        "los Indios todos"
+      ],
+      "tipo": "Ayllu_Comunidad",
+      "condicion": "IndioOriginario",
+      "cargos": []
+    },
+    {
+      "id": "lugar_carcel",
+      "etiqueta": "Lugar",
+      "nombre": "carcel",
+      "tipo": "Edificio_Institucion"
+    },
+    {
+      "id": "objeto_objeto_defraudacion_reales_arcas",
+      "etiqueta": "ObjetoBien",
+      "descripcion": "Total robo del cacique y usurpación de bienes a las reales arcas",
+      "tipo": "Dinero_Tributo"
+    },
+    {
+      "id": "objeto_objeto_garrotes",
+      "etiqueta": "ObjetoBien",
+      "descripcion": "Garrotes portados por los indios en el alegado alzamiento",
+      "tipo": "Arma_Herramienta"
+    },
+    {
+      "id": "evento_agresion_y_encarcelamiento_huancachoque",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Agresion_Fisica",
+      "fecha_alegada": "El siguiente día de la revisita"
+    },
+    {
+      "id": "afirmacion_01_robo_cacique_y_agresion",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "Acusacion",
+      "estado": "Alegato_No_Comprobado",
+      "cita": "Tuve grande sentimiento por Manuel Huancachoque, denunciante a favor de la Real Hacienda que defendió a las reales arcas y por haber sacado a la luz e",
+      "folio": 5,
+      "confianza": 1.0
+    },
+    {
+      "id": "evento_motin_garrotes",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Tumulto_Alboroto",
+      "fecha_alegada": "Esa misma noche"
+    },
+    {
+      "id": "afirmacion_02_alzamiento_indios",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "TestimonioDirecto",
+      "estado": "Alegato_No_Comprobado",
+      "cita": "Esa misma noche se alzaron los Indios todos con garrotes, armados a dar muerte a los que condolían por a favor de la Real Hacienda que hablamos.",
+      "folio": 5,
+      "confianza": 1.0
+    },
+    {
+      "id": "exp_ccc_14_18_f06_seg06",
+      "etiqueta": "FuenteArchivistica",
+      "fondo": "Intendencia",
+      "serie": "Causas Criminales",
+      "legajo": 14,
+      "expediente": 18,
+      "folio": 6
+    },
+    {
+      "id": "actor_andres_choquitapa",
+      "etiqueta": "Actor",
+      "nombre": "Andrés Choquitapa",
+      "variantes": [
+        "Andres Choquitapa"
+      ],
+      "tipo": "Persona",
+      "condicion": "Noble_Cacique",
+      "cargos": [
+        "CaciqueRecaudador"
+      ]
+    },
+    {
+      "id": "actor_fiscal_protector",
+      "etiqueta": "Actor",
+      "nombre": "Fiscal Protector General de Naturales",
+      "variantes": [],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": [
+        "ProtectorDeNaturales",
+        "Fiscal"
+      ]
+    },
+    {
+      "id": "actor_subdelegado_tinta",
+      "etiqueta": "Actor",
+      "nombre": "Subdelegado del Partido de Tinta",
+      "variantes": [],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": [
+        "Subdelegado"
+      ]
+    },
+    {
+      "id": "actor_segundas_y_alcaldes",
+      "etiqueta": "Actor",
+      "nombre": "Segundas y Alcaldes de Tinta",
+      "variantes": [],
+      "tipo": "Familia_Colectivo",
+      "condicion": "IndioOriginario",
+      "cargos": [
+        "Segunda",
+        "AlcaldeDeIndios"
+      ]
+    },
+    {
+      "id": "lugar_cusco",
+      "etiqueta": "Lugar",
+      "nombre": "Cusco",
+      "tipo": "Ciudad",
+      "jurisdiccion": "Intendencia del Cusco"
+    },
+    {
+      "id": "lugar_pueblo_tinta",
+      "etiqueta": "Lugar",
+      "nombre": "Pueblo de Tinta",
+      "tipo": "Pueblo",
+      "jurisdiccion": "Partido de Tinta"
+    },
+    {
+      "id": "lugar_ayllu_tinta",
+      "etiqueta": "Lugar",
+      "nombre": "Ayllu Tinta",
+      "tipo": "Ayllu_Territorio",
+      "jurisdiccion": "Pueblo de Tinta"
+    },
+    {
+      "id": "lugar_ayllu_uchu",
+      "etiqueta": "Lugar",
+      "nombre": "Ayllu nominado Uchu",
+      "tipo": "Ayllu_Territorio",
+      "jurisdiccion": "Pueblo de Tinta"
+    },
+    {
+      "id": "objeto_obj_tributarios_ocultados",
+      "etiqueta": "ObjetoBien",
+      "descripcion": "Cuarenta y cuatro tributarios en el Ayllu Tinta y siete en el Ayllu Uchu ocultados",
+      "tipo": "Indios_Tributarios",
+      "cantidad": "51 tributarios"
+    },
+    {
+      "id": "evt_presentacion_escrito",
+      "etiqueta": "EventoInstitucional",
+      "tipo": "ResolucionJudicial",
+      "categoria": "Judicial_Conflictos",
+      "fecha": "22 de agosto de 1806",
+      "lugar": "lugar_cusco"
+    },
+    {
+      "id": "evt_ocultacion_tributarios",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Ocultacion_Tributarios"
+    },
+    {
+      "id": "afir_01_ocultacion_tributarios",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "Acusacion",
+      "estado": "Alegato_No_Comprobado",
+      "cita": "denuncie considerable número de Indios tributarios que de muchos años atrás tenia ocultos el recaudaderor Don Andres Choquitapa",
+      "folio": 6,
+      "confianza": 1.0
+    },
+    {
+      "id": "evt_agresion_encarcelamiento",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Agresion_Fisica"
+    },
+    {
+      "id": "afir_02_agresion_y_encarcelamiento",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "Acusacion",
+      "estado": "Alegato_No_Comprobado",
+      "cita": "los segundas, los alcaldes, sus parientes y demás dependientes suyos embriagados al propósito, me envistieron como fieras, y tirándome unos de los cab",
+      "folio": 6,
+      "confianza": 1.0
+    },
+    {
+      "id": "exp_ccc_14_18_f07_seg07",
+      "etiqueta": "FuenteArchivistica",
+      "fondo": "Intendencia",
+      "serie": "Causas Criminales",
+      "legajo": 14,
+      "expediente": 18,
+      "folio": 7
+    },
+    {
+      "id": "persona_subdelegado",
+      "etiqueta": "Actor",
+      "nombre": "Subdelegado de la provincia",
+      "variantes": [
+        "subdelegado"
+      ],
+      "tipo": "Persona",
+      "condicion": "Desconocido",
+      "cargos": [
+        "Subdelegado"
+      ]
+    },
+    {
+      "id": "persona_presidente_intendente",
+      "etiqueta": "Actor",
+      "nombre": "Presidente Intendente",
+      "variantes": [
+        "muy ilustre señor presidente"
+      ],
+      "tipo": "Persona",
+      "condicion": "Desconocido",
+      "cargos": [
+        "Presidente"
+      ]
+    },
+    {
+      "id": "colectivo_caterva_indios",
+      "etiqueta": "Actor",
+      "nombre": "Caterva de indios",
+      "variantes": [
+        "caterva de indios"
+      ],
+      "tipo": "Familia_Colectivo",
+      "condicion": "IndioOriginario",
+      "cargos": []
+    },
+    {
+      "id": "lugar_pueblo_unnamed",
+      "etiqueta": "Lugar",
+      "nombre": "pueblo",
+      "tipo": "Pueblo"
+    },
+    {
+      "id": "objeto_bien_dinero_usurpado",
+      "etiqueta": "ObjetoBien",
+      "descripcion": "Ingente cantidad de dinero usurpado al Real erario",
+      "tipo": "Dinero_Tributo",
+      "cantidad": "ingente cantidad de dinero"
+    },
+    {
+      "id": "objeto_bien_matricula_tributo",
+      "etiqueta": "ObjetoBien",
+      "descripcion": "Matrícula e inscripción de contribución de tributo",
+      "tipo": "Dinero_Tributo"
+    },
+    {
+      "id": "evento_presentacion_peticion_huancachoque",
+      "etiqueta": "EventoInstitucional",
+      "tipo": "Denuncia",
+      "categoria": "Judicial_Conflictos"
+    },
+    {
+      "id": "evento_encarcelamiento_huancachoque",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Agresion_Fisica"
+    },
+    {
+      "id": "afirmacion_01_encarcelamiento_agresion",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "Acusacion",
+      "estado": "Alegato_No_Comprobado",
+      "cita": "al fin me encerraron allí... a las nueve de la noche se apareció una caterva de indios, a quienes había entregado Chuquitapa y manifestándome los palo",
+      "folio": 7,
+      "confianza": 1.0
+    },
+    {
+      "id": "evento_matriculacion_tributaria",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Revisita"
+    },
+    {
+      "id": "afirmacion_02_indebida_matriculacion",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "Acusacion",
+      "estado": "Alegato_No_Comprobado",
+      "cita": "ha hecho de mi Chuquitapa lo que ha querido y conseguido también el que se me matricule, siendo así que por haber estado empleado en las milicias de a",
+      "folio": 7,
+      "confianza": 1.0
+    },
+    {
+      "id": "evento_usurpacion_reales_fondos",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Ocultacion_Tributarios"
+    },
+    {
+      "id": "afirmacion_03_usurpacion_dinero",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "Acusacion",
+      "estado": "Alegato_No_Comprobado",
+      "cita": "la institución de la ingente cantidad de dinero que ha usurpado aquel al Real grasia",
+      "folio": 7,
+      "confianza": 1.0
+    },
+    {
+      "id": "exp_ccc_14_18_f08_seg08",
+      "etiqueta": "FuenteArchivistica",
+      "fondo": "Intendencia",
+      "serie": "Causas Criminales",
+      "legajo": 14,
+      "expediente": 18,
+      "folio": 8
+    },
+    {
+      "id": "persona_manuel_guancachoque",
+      "etiqueta": "Actor",
+      "nombre": "Manuel Huancachoque",
+      "variantes": [
+        "Manuel Guancachoque",
+        "Guancachoque"
+      ],
+      "tipo": "Persona",
+      "condicion": "IndioTributario",
+      "cargos": []
+    },
+    {
+      "id": "persona_fiscal_sm",
+      "etiqueta": "Actor",
+      "nombre": "Fiscal de S.M.",
+      "variantes": [
+        "señor Fiscal",
+        "El fiscal del Señor"
+      ],
+      "tipo": "Persona",
+      "condicion": "Desconocido",
+      "cargos": [
+        "Fiscal"
+      ]
+    },
+    {
+      "id": "persona_subdelegado_tinta",
+      "etiqueta": "Actor",
+      "nombre": "Subdelegado del Partido de Tinta",
+      "variantes": [
+        "subdelegado del partido de tinta",
+        "subdelegado territorial"
+      ],
+      "tipo": "Persona",
+      "condicion": "Desconocido",
+      "cargos": [
+        "Subdelegado"
+      ]
+    },
+    {
+      "id": "lugar_partido_tinta",
+      "etiqueta": "Lugar",
+      "nombre": "partido de tinta",
+      "tipo": "Partido_Provincia",
+      "jurisdiccion": "Intendencia del Cusco"
+    },
+    {
+      "id": "objeto_objeto_51_tributarios",
+      "etiqueta": "ObjetoBien",
+      "descripcion": "51 indios tributarios denunciados en la revisita",
+      "tipo": "Indios_Tributarios",
+      "cantidad": "51"
+    },
+    {
+      "id": "evt_vista_fiscal",
+      "etiqueta": "EventoInstitucional",
+      "tipo": "ResolucionJudicial",
+      "categoria": "Administrativo_Politico"
+    },
+    {
+      "id": "evt_denuncia_51_tributarios",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Denuncia"
+    },
+    {
+      "id": "afir_01_denuncia_ocultacion",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "Acusacion",
+      "estado": "Alegato_No_Comprobado",
+      "cita": "en odio de aver denunciado cincuenta y un tributarios en la revisita de aquel partido contra el Recaudador de Tributos Son Andres Chuquitapa",
+      "folio": 8,
+      "confianza": 1.0
+    },
+    {
+      "id": "evt_agresion_y_prision",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Agresion_Fisica",
+      "fecha_alegada": "antes ayer"
+    },
+    {
+      "id": "afir_02_agresion_y_atentado",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "Acusacion",
+      "estado": "Alegato_No_Comprobado",
+      "cita": "este y sus parciales amén de aver logrado su prision, lo han maltratado de obra, e injuriado de palabra, antes ayer precurado matarlo con alboroto de ",
+      "folio": 8,
+      "confianza": 1.0
+    },
+    {
+      "id": "exp_ccc_14_18_f09_seg09",
+      "etiqueta": "FuenteArchivistica",
+      "fondo": "Intendencia",
+      "serie": "Causas Criminales",
+      "legajo": 14,
+      "expediente": 18,
+      "folio": 9
+    },
+    {
+      "id": "actor_luis_gomez_del_rio",
+      "etiqueta": "Actor",
+      "nombre": "Luis Gómez del Río",
+      "variantes": [
+        "Gómez del Rio",
+        "Luis Gomez del Rio"
+      ],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": [
+        "Fiscal"
+      ]
+    },
+    {
+      "id": "actor_chacon",
+      "etiqueta": "Actor",
+      "nombre": "Chacón",
+      "variantes": [
+        "Chacón"
+      ],
+      "tipo": "Persona",
+      "condicion": "Desconocido",
+      "cargos": [
+        "Escribano"
+      ]
+    },
+    {
+      "id": "actor_manuel_galeano",
+      "etiqueta": "Actor",
+      "nombre": "Manuel Galeano",
+      "variantes": [
+        "Manuel Galeano",
+        "Galeano"
+      ],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": [
+        "Teniente"
+      ]
+    },
+    {
+      "id": "actor_manuel_guancachoque",
+      "etiqueta": "Actor",
+      "nombre": "Manuel Guancachoque",
+      "variantes": [
+        "Manuel Guancachoque",
+        "Guancachoque"
+      ],
+      "tipo": "Persona",
+      "condicion": "IndioTributario",
+      "cargos": [
+        "Denunciante"
+      ]
+    },
+    {
+      "id": "actor_manuel_valencia",
+      "etiqueta": "Actor",
+      "nombre": "Manuel Valencia",
+      "variantes": [
+        "Doctor Don Manuel Valencia",
+        "Don Valencia"
+      ],
+      "tipo": "Persona",
+      "condicion": "Eclesiástico",
+      "cargos": [
+        "ProtectorDeNaturales"
+      ]
+    },
+    {
+      "id": "actor_marcos_salcedo",
+      "etiqueta": "Actor",
+      "nombre": "Marcos Salcedo",
+      "variantes": [
+        "Marcos Salcedo"
+      ],
+      "tipo": "Persona",
+      "condicion": "Desconocido",
+      "cargos": [
+        "Escribano"
+      ]
+    },
+    {
+      "id": "actor_juan_clemente_jordan",
+      "etiqueta": "Actor",
+      "nombre": "Juan Clemente Jordán",
+      "variantes": [
+        "Juan Clemente Jordan"
+      ],
+      "tipo": "Persona",
+      "condicion": "Desconocido",
+      "cargos": []
+    },
+    {
+      "id": "evento_dictamen_fiscal_gomez",
+      "etiqueta": "EventoInstitucional",
+      "tipo": "ResolucionJudicial",
+      "categoria": "Judicial_Conflictos",
+      "fecha": "21 de Agosto de 1806",
+      "lugar": "lugar_cusco"
+    },
+    {
+      "id": "evento_ratificacion_juramentada",
+      "etiqueta": "EventoInstitucional",
+      "tipo": "Comparecencia_Juramento",
+      "categoria": "Judicial_Conflictos",
+      "fecha": "13 de Agosto de 1806",
+      "lugar": "lugar_cusco"
+    },
+    {
+      "id": "evento_declaracion_guancachoque",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Ratificacion_Escrito",
+      "fecha_alegada": "13 de Agosto de 1806"
+    },
+    {
+      "id": "exp_ccc_14_18_f10_seg10",
+      "etiqueta": "FuenteArchivistica",
+      "fondo": "Intendencia",
+      "serie": "Causas Criminales",
+      "legajo": 14,
+      "expediente": 18,
+      "folio": 10
+    },
+    {
+      "id": "persona_ruiz_de_castilla",
+      "etiqueta": "Actor",
+      "nombre": "Marqués de Selva Alegre / Ruiz de Castilla",
+      "variantes": [
+        "Castilla",
+        "Ruiz de Castilla"
+      ],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": [
+        "Presidente de la Real Audiencia",
+        "Gobernador Intendente"
+      ]
+    },
+    {
+      "id": "persona_antonio_chacon",
+      "etiqueta": "Actor",
+      "nombre": "Antonio Chacón",
+      "variantes": [
+        "Don Antonio Chacón",
+        "Chacón"
+      ],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": [
+        "Escribano"
+      ]
+    },
+    {
+      "id": "persona_luis_gonzalo_del_rio",
+      "etiqueta": "Actor",
+      "nombre": "Luis Gonzalo del Río",
+      "variantes": [
+        "Luis Gonsalo del Rio"
+      ],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": [
+        "Fiscal"
+      ]
+    },
+    {
+      "id": "objeto_objeto_51_indios_tributarios",
+      "etiqueta": "ObjetoBien",
+      "descripcion": "51 indios tributarios ocultos y fuera de matrícula",
+      "tipo": "Indios_Tributarios",
+      "cantidad": "51"
+    },
+    {
+      "id": "evento_auto_judicial_castilla_1806_08_27",
+      "etiqueta": "EventoInstitucional",
+      "tipo": "ResolucionJudicial",
+      "categoria": "Judicial_Conflictos",
+      "fecha": "Agosto 27 de 1806",
+      "lugar": "lugar_cusco"
+    },
+    {
+      "id": "evento_notificacion_fiscal_1806_08_27",
+      "etiqueta": "EventoInstitucional",
+      "tipo": "ResolucionJudicial",
+      "categoria": "Judicial_Conflictos",
+      "fecha": "27 de Agosto de 1806",
+      "lugar": "lugar_cusco"
+    },
+    {
+      "id": "evento_notificacion_guancachoque_1806_08_27",
+      "etiqueta": "EventoInstitucional",
+      "tipo": "ResolucionJudicial",
+      "categoria": "Judicial_Conflictos",
+      "fecha": "27 de Agosto de 1806",
+      "lugar": "lugar_cusco"
+    },
+    {
+      "id": "evento_remision_expediente_1806_08_28",
+      "etiqueta": "EventoInstitucional",
+      "tipo": "ResolucionJudicial",
+      "categoria": "Administrativo_Politico",
+      "fecha": "Agosto 28 de 1806",
+      "lugar": "lugar_cusco"
+    },
+    {
+      "id": "evento_ocultacion_tributarios_tinta",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Ocultacion_Tributarios",
+      "fecha_alegada": "27 de Agosto de 1806"
+    },
+    {
+      "id": "afirmacion_ocultacion_tributarios_01",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "Acusacion",
+      "estado": "Alegato_No_Comprobado",
+      "cita": "relativo a 51 yndios  tributarios que ha denunciado Manuel Guancachoque yndio del Pueblo de Tinta te er ocultos y fuera de matrícula Don Andrés Choque",
+      "folio": 10,
+      "confianza": 1.0
+    },
+    {
+      "id": "exp_ccc_14_18_f10_seg11",
+      "etiqueta": "FuenteArchivistica",
+      "fondo": "Intendencia",
+      "serie": "Causas Criminales",
+      "legajo": 14,
+      "expediente": 18,
+      "folio": 10
+    },
+    {
+      "id": "actor_andres_chuquitapa",
+      "etiqueta": "Actor",
+      "nombre": "Andrés Chuquitapa",
+      "variantes": [
+        "Andres Chuquitapa"
+      ],
+      "tipo": "Persona",
+      "condicion": "Noble_Cacique",
+      "cargos": [
+        "CaciquePrincipal",
+        "AlcaldeDeIndios"
+      ]
+    },
+    {
+      "id": "actor_pedro_de_la_mara",
+      "etiqueta": "Actor",
+      "nombre": "Pedro de la Mara",
+      "variantes": [
+        "Pedro de la Mara"
+      ],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": [
+        "Subdelegado"
+      ]
+    },
+    {
+      "id": "actor_presidente_intendencia",
+      "etiqueta": "Actor",
+      "nombre": "Presidente Intendente del Cusco",
+      "variantes": [
+        "muy ilustre señor presidente",
+        "Sr. Presidente",
+        "M. Y. S. P.",
+        "M. J. S. P."
+      ],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": [
+        "Presidente"
+      ]
+    },
+    {
+      "id": "lugar_sicuani",
+      "etiqueta": "Lugar",
+      "nombre": "Siquani",
+      "tipo": "Pueblo",
+      "jurisdiccion": "Partido de Tinta"
+    },
+    {
+      "id": "objeto_obj_indios_ocultos_51",
+      "etiqueta": "ObjetoBien",
+      "descripcion": "Cincuenta y un indios ocultos y fuera de matrícula",
+      "tipo": "Indios_Tributarios",
+      "cantidad": "51"
+    },
+    {
+      "id": "evento_auto_subdelegado_sicuani",
+      "etiqueta": "EventoInstitucional",
+      "tipo": "ResolucionJudicial",
+      "categoria": "Administrativo_Politico",
+      "fecha": "17 de Setiembre de 1806",
+      "lugar": "lugar_sicuani"
+    },
+    {
+      "id": "afirmacion_exp18_f10_01",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "ResolucionOficial",
+      "estado": "Confirmado_Oficial",
+      "cita": "haga de Saber a Chuquitapa se retire, de este Pueblo à distan. cia de quatro leguas",
+      "folio": 10,
+      "confianza": 1.0
+    },
+    {
+      "id": "exp_ccc_14_18_f10_seg12",
+      "etiqueta": "FuenteArchivistica",
+      "fondo": "Intendencia",
+      "serie": "Causas Criminales",
+      "legajo": 14,
+      "expediente": 18,
+      "folio": 10
+    },
+    {
+      "id": "persona_pedro_de_la_mata",
+      "etiqueta": "Actor",
+      "nombre": "Pedro de la Mata",
+      "variantes": [
+        "Pedro de la Mata"
+      ],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": [
+        "Subdelegado"
+      ]
+    },
+    {
+      "id": "persona_mariano_figueroa",
+      "etiqueta": "Actor",
+      "nombre": "Mariano Figueroa",
+      "variantes": [
+        "MARIANO FIGUEROA"
+      ],
+      "tipo": "Persona",
+      "condicion": "Desconocido",
+      "cargos": []
+    },
+    {
+      "id": "persona_tupac_amaru_ii",
+      "etiqueta": "Actor",
+      "nombre": "José Gabriel Tupac Amaru",
+      "variantes": [
+        "Tupa amaro",
+        "rebelde Tupa amaro"
+      ],
+      "tipo": "Persona",
+      "condicion": "Noble_Cacique",
+      "cargos": [
+        "Líder Rebelde"
+      ]
+    },
+    {
+      "id": "persona_santiago_casorla",
+      "etiqueta": "Actor",
+      "nombre": "Santiago Casorla",
+      "variantes": [
+        "santiago cacerola",
+        "santiago casorlas"
+      ],
+      "tipo": "Persona",
+      "condicion": "Desconocido",
+      "cargos": []
+    },
+    {
+      "id": "objeto_objeto_certificacion_cano",
+      "etiqueta": "ObjetoBien",
+      "descripcion": "Certificación de declaración previa con firma de Isidro Cano",
+      "tipo": "Otro"
+    },
+    {
+      "id": "evento_notificacion_chuquitapa",
+      "etiqueta": "EventoInstitucional",
+      "tipo": "ResolucionJudicial",
+      "categoria": "Judicial_Conflictos",
+      "lugar": "lugar_tinta"
+    },
+    {
+      "id": "evento_tomada_declaracion_isidro_cano",
+      "etiqueta": "EventoInstitucional",
+      "tipo": "Declaracion_Judicial",
+      "categoria": "Judicial_Conflictos",
+      "fecha": "23 de Septiembre de 1806",
+      "lugar": "lugar_tinta"
+    },
+    {
+      "id": "evento_orden_retiro_chuquitapa",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "ResolucionJudicial"
+    },
+    {
+      "id": "evento_rango_comisionado_tupac_amaru",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Administrativo_Politico",
+      "fecha_alegada": "Tiempo de la rebelión de Tupac Amaru"
+    },
+    {
+      "id": "afirmacion_exp18_f10_02",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "Confesion_Rectificacion",
+      "estado": "Alegato_No_Comprobado",
+      "cita": "en tiempo del rebelde Tupa amaro fue Comisionado por este y no coronel como expone en su certificación",
+      "folio": 10,
+      "confianza": 0.95
+    },
+    {
+      "id": "evento_motin_indios_guancachoque",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Tumulto_Alboroto"
+    },
+    {
+      "id": "afirmacion_exp18_f10_03",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "Sospecha",
+      "estado": "Alegato_No_Comprobado",
+      "cita": "todos los Yndios se alzaron a media noche armados con garrotes para acabar con este, y hacer matalo de los españoles poniendo guardias a las puertas d",
+      "folio": 10,
+      "confianza": 0.95
+    },
+    {
+      "id": "exp_ccc_14_18_f04_seg13",
+      "etiqueta": "FuenteArchivistica",
+      "fondo": "Intendencia",
+      "serie": "Causas Criminales",
+      "legajo": 14,
+      "expediente": 18,
+      "folio": 4
+    },
+    {
+      "id": "persona_mariano_casorla",
+      "etiqueta": "Actor",
+      "nombre": "Mariano Casorla",
+      "variantes": [
+        "Don Mariano Casorla",
+        "Martin casorla"
+      ],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": [
+        "Gobernador"
+      ]
+    },
+    {
+      "id": "persona_simon_arce",
+      "etiqueta": "Actor",
+      "nombre": "Simón Arce",
+      "variantes": [
+        "Simon Arce"
+      ],
+      "tipo": "Persona",
+      "condicion": "Desconocido",
+      "cargos": []
+    },
+    {
+      "id": "persona_pedro_mata",
+      "etiqueta": "Actor",
+      "nombre": "Pedro de Mata",
+      "variantes": [
+        "pedro  de Mata"
+      ],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": []
+    },
+    {
+      "id": "persona_ysidro_cano",
+      "etiqueta": "Actor",
+      "nombre": "Ysidro Cano",
+      "variantes": [
+        "YSIDRO CANO"
+      ],
+      "tipo": "Persona",
+      "condicion": "Desconocido",
+      "cargos": [
+        "Testigo"
+      ]
+    },
+    {
+      "id": "persona_celedonio_aparicio",
+      "etiqueta": "Actor",
+      "nombre": "Celedonio Aparicio",
+      "variantes": [
+        "CELEDONIO APARICIO"
+      ],
+      "tipo": "Persona",
+      "condicion": "Desconocido",
+      "cargos": []
+    },
+    {
+      "id": "familia_chuquitapa",
+      "etiqueta": "Actor",
+      "nombre": "Parientes de Chuquitapa",
+      "variantes": [
+        "parientes de Chuquitapa"
+      ],
+      "tipo": "Familia_Colectivo",
+      "condicion": "Desconocido",
+      "cargos": []
+    },
+    {
+      "id": "lugar_real_carcel",
+      "etiqueta": "Lugar",
+      "nombre": "Real cárcel",
+      "tipo": "Edificio_Institucion",
+      "jurisdiccion": "Tinta"
+    },
+    {
+      "id": "objeto_objeto_certificacion_f04",
+      "etiqueta": "ObjetoBien",
+      "descripcion": "Certificación del folio 4 manifestada a Mariano Casorla",
+      "tipo": "Otro",
+      "cantidad": "1 papel/certificación"
+    },
+    {
+      "id": "evento_comparecencia_mariano_casorla",
+      "etiqueta": "EventoInstitucional",
+      "tipo": "Comparecencia_Judicial",
+      "categoria": "Judicial_Conflictos",
+      "lugar": "lugar_tinta"
+    },
+    {
+      "id": "evento_solicitud_certificacion",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Solicitud_Certificacion"
+    },
+    {
+      "id": "evento_agresion_guancachoque",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Agresion_Fisica"
+    },
+    {
+      "id": "evento_motivo_prision_robo",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Denuncia"
+    },
+    {
+      "id": "evento_desmentido_tumulto",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Tumulto_Alboroto"
+    },
+    {
+      "id": "exp_ccc_14_18_f04_seg14",
+      "etiqueta": "FuenteArchivistica",
+      "fondo": "Intendencia",
+      "serie": "Causas Criminales",
+      "legajo": 14,
+      "expediente": 18,
+      "folio": 4
+    },
+    {
+      "id": "persona_juan_de_dios_casorla",
+      "etiqueta": "Actor",
+      "nombre": "Juan de Dios Casorla",
+      "variantes": [
+        "juan de dios casorlas"
+      ],
+      "tipo": "Persona",
+      "condicion": "Desconocido",
+      "cargos": []
+    },
+    {
+      "id": "persona_madre_rosa",
+      "etiqueta": "Actor",
+      "nombre": "Rosa",
+      "variantes": [
+        "madre rosa"
+      ],
+      "tipo": "Persona",
+      "condicion": "Desconocido",
+      "cargos": []
+    },
+    {
+      "id": "evento_declaracion_santiago_casorla",
+      "etiqueta": "EventoInstitucional",
+      "tipo": "Declaracion_Judicial",
+      "categoria": "Judicial_Conflictos",
+      "fecha": "24 de septiembre de 1806"
+    },
+    {
+      "id": "evento_alboroto_indios_alegado",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Tumulto_Alboroto"
+    },
+    {
+      "id": "evento_amenaza_indios_alegada",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Denuncia"
+    },
+    {
+      "id": "exp_ccc_14_18_f05_seg15",
+      "etiqueta": "FuenteArchivistica",
+      "fondo": "Intendencia",
+      "serie": "Causas Criminales",
+      "legajo": 14,
+      "expediente": 18,
+      "folio": 5
+    },
+    {
+      "id": "actor_fernando_orue",
+      "etiqueta": "Actor",
+      "nombre": "Fernando Orué",
+      "variantes": [
+        "fernando ore",
+        "fernando orue"
+      ],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": [
+        "Soldado"
+      ]
+    },
+    {
+      "id": "actor_andres_chuquitaza",
+      "etiqueta": "Actor",
+      "nombre": "Andrés Chuquitaza",
+      "variantes": [
+        "andres chuquitaza",
+        "chuquitapa"
+      ],
+      "tipo": "Persona",
+      "condicion": "Desconocido",
+      "cargos": [
+        "Coronel y comisionado de Túpac Amaru"
+      ]
+    },
+    {
+      "id": "actor_juan_antonio_repuras",
+      "etiqueta": "Actor",
+      "nombre": "Juan Antonio Repuras",
+      "variantes": [
+        "d juan antonio repuras",
+        "juan antonio repuras"
+      ],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": [
+        "Corregidor"
+      ]
+    },
+    {
+      "id": "actor_diego_orue",
+      "etiqueta": "Actor",
+      "nombre": "Diego Orué",
+      "variantes": [
+        "Diego orue"
+      ],
+      "tipo": "Persona",
+      "condicion": "Desconocido",
+      "cargos": []
+    },
+    {
+      "id": "actor_juan_de_dios_cazorla",
+      "etiqueta": "Actor",
+      "nombre": "Juan de Dios Cazorla",
+      "variantes": [
+        "Juan se Dios cazorla"
+      ],
+      "tipo": "Persona",
+      "condicion": "Desconocido",
+      "cargos": []
+    },
+    {
+      "id": "actor_tupac_amaru",
+      "etiqueta": "Actor",
+      "nombre": "Túpac Amaru",
+      "variantes": [
+        "tupa-amaru",
+        "tupa"
+      ],
+      "tipo": "Persona",
+      "condicion": "Noble_Cacique",
+      "cargos": [
+        "Rebelde",
+        "Insurgente"
+      ]
+    },
+    {
+      "id": "actor_padre_orue",
+      "etiqueta": "Actor",
+      "nombre": "Padre de Fernando Orué",
+      "variantes": [
+        "padre del que declara"
+      ],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": [
+        "Cobrador del departamento"
+      ]
+    },
+    {
+      "id": "lugar_casa_corregidor",
+      "etiqueta": "Lugar",
+      "nombre": "casa del corregidor",
+      "tipo": "Edificio_Institucion"
+    },
+    {
+      "id": "objeto_objeto_certificacion",
+      "etiqueta": "ObjetoBien",
+      "descripcion": "Certificación del expediente presentada a nombre de Fernando Orué",
+      "tipo": "Otro"
+    },
+    {
+      "id": "objeto_objeto_caballo",
+      "etiqueta": "ObjetoBien",
+      "descripcion": "Caballo sacado del corral de Chuquitaza",
+      "tipo": "Mueble_Mercancia",
+      "cantidad": "1"
+    },
+    {
+      "id": "evento_comparecencia_fernando_orue",
+      "etiqueta": "EventoInstitucional",
+      "tipo": "ResolucionJudicial",
+      "categoria": "Judicial_Conflictos"
+    },
+    {
+      "id": "evento_solicitud_firma_certificacion",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Denuncia"
+    },
+    {
+      "id": "afirmacion_orue_disputa_firma",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "Confesion_Rectificacion",
+      "estado": "Alegato_No_Comprobado",
+      "cita": "siendole preguntado si la firma q dise fernando orue presenta en la certificacion de este expediente es echa con puño y letra dijo... no obstante que ",
+      "folio": 5,
+      "confianza": 1.0
+    },
+    {
+      "id": "evento_alboroto_carcel",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Tumulto_Alboroto",
+      "fecha_alegada": "al primer puesto del gallo"
+    },
+    {
+      "id": "afirmacion_orue_rectifica_hora_alboroto",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "TestimonioDirecto",
+      "estado": "En_Disputa",
+      "cita": "q el aboroto q dise de indios advirtió a la puerta de la carcel y q estaban ebrios no fue a las dies de la noche como ha puesto guasscachoque en la ci",
+      "folio": 5,
+      "confianza": 1.0
+    },
+    {
+      "id": "evento_insurgencia_y_amotinamiento_chuquitaza",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Tumulto_Alboroto",
+      "fecha_alegada": "en tiempo del rebelde tupa-amaru"
+    },
+    {
+      "id": "afirmacion_orue_acusacion_chuquitaza",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "Acusacion",
+      "estado": "Alegato_No_Comprobado",
+      "cita": "con motibo de saber q de andres chuquitaza fue en tiempo del rebelde tupa-amaru coronel y comisionado puso las expresiones de a fabor del insurgente t",
+      "folio": 5,
+      "confianza": 1.0
+    },
+    {
+      "id": "exp_ccc_14_18_f06_seg16",
+      "etiqueta": "FuenteArchivistica",
+      "fondo": "Intendencia",
+      "serie": "Causas Criminales",
+      "legajo": 14,
+      "expediente": 18,
+      "folio": 6
+    },
+    {
+      "id": "persona_antonio_valdes",
+      "etiqueta": "Actor",
+      "nombre": "Antonio Valdés",
+      "variantes": [
+        "Doctor Don Antonio Valdes"
+      ],
+      "tipo": "Persona",
+      "condicion": "Eclesiástico",
+      "cargos": [
+        "Doctor"
+      ]
+    },
+    {
+      "id": "persona_parroco_interino",
+      "etiqueta": "Actor",
+      "nombre": "Párroco Interino",
+      "variantes": [
+        "parroco  interino"
+      ],
+      "tipo": "Persona",
+      "condicion": "Eclesiástico",
+      "cargos": [
+        "parroco  interino"
+      ]
+    },
+    {
+      "id": "persona_mujer_chuquitapa",
+      "etiqueta": "Actor",
+      "nombre": "Mujer de Chuquitapa",
+      "variantes": [
+        "mujer de Chiquitas",
+        "la spa su mujer"
+      ],
+      "tipo": "Persona",
+      "cargos": []
+    },
+    {
+      "id": "persona_declarante_anonimo",
+      "etiqueta": "Actor",
+      "nombre": "Declarante anónimo",
+      "variantes": [
+        "el declarante"
+      ],
+      "tipo": "Persona",
+      "cargos": []
+    },
+    {
+      "id": "lugar_doctrina_unspecified",
+      "etiqueta": "Lugar",
+      "nombre": "esta doctrina",
+      "tipo": "Parroquia_Doctrina"
+    },
+    {
+      "id": "evento_solicitud_oficial_informe",
+      "etiqueta": "EventoInstitucional",
+      "tipo": "ResolucionJudicial",
+      "categoria": "Judicial_Conflictos",
+      "fecha": "1806-09-24",
+      "lugar": "lugar_doctrina_unspecified"
+    },
+    {
+      "id": "evento_altercado_certificacion",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Denuncia"
+    },
+    {
+      "id": "evento_pedimento_informe_conducta",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Denuncia",
+      "fecha_alegada": "1806-09-24"
+    },
+    {
+      "id": "exp_ccc_14_18_f28_seg17",
+      "etiqueta": "FuenteArchivistica",
+      "fondo": "Intendencia",
+      "serie": "Causas Criminales",
+      "legajo": 14,
+      "expediente": 18,
+      "folio": 28
+    },
+    {
+      "id": "actor_fiscal_declarante",
+      "etiqueta": "Actor",
+      "nombre": "Fiscal Declarante (Anónimo)",
+      "variantes": [],
+      "tipo": "Persona",
+      "condicion": "Eclesiástico",
+      "cargos": [
+        "Fiscal"
+      ]
+    },
+    {
+      "id": "actor_antolin_ortiz",
+      "etiqueta": "Actor",
+      "nombre": "Antolín Ortiz",
+      "variantes": [
+        "Antolin Ortiz"
+      ],
+      "tipo": "Persona",
+      "condicion": "Desconocido",
+      "cargos": []
+    },
+    {
+      "id": "actor_joseph_condorcanqui",
+      "etiqueta": "Actor",
+      "nombre": "José Gabriel Condorcanqui (Túpac Amaru II)",
+      "variantes": [
+        "Joseph Condorcanqui",
+        "Tupac Amaro",
+        "vuestro Condorcanqui"
+      ],
+      "tipo": "Persona",
+      "condicion": "Noble_Cacique",
+      "cargos": []
+    },
+    {
+      "id": "actor_agustina_falcon",
+      "etiqueta": "Actor",
+      "nombre": "Agustina Falcón",
+      "variantes": [
+        "Agustina Falcon"
+      ],
+      "tipo": "Persona",
+      "condicion": "IndioOriginario",
+      "cargos": []
+    },
+    {
+      "id": "actor_atanasio_sotelo",
+      "etiqueta": "Actor",
+      "nombre": "Atanasio Sotelo",
+      "variantes": [
+        "Althamacio Zotelo"
+      ],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": [
+        "Fiscal"
+      ]
+    },
+    {
+      "id": "lugar_doctrina_pueblo",
+      "etiqueta": "Lugar",
+      "nombre": "esta Doctrina / este pueblo",
+      "tipo": "Parroquia_Doctrina"
+    },
+    {
+      "id": "lugar_america_meridional",
+      "etiqueta": "Lugar",
+      "nombre": "America meridional",
+      "tipo": "Otro"
+    },
+    {
+      "id": "evento_emision_dictamen_1806",
+      "etiqueta": "EventoInstitucional",
+      "tipo": "ResolucionJudicial",
+      "categoria": "Administrativo_Politico",
+      "fecha": "1806-11-26",
+      "lugar": "lugar_doctrina_pueblo"
+    },
+    {
+      "id": "evento_filiacion_huancachoque",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Denuncia"
+    },
+    {
+      "id": "afirmacion_filiacion_huancachoque",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "Acusacion",
+      "estado": "Alegato_No_Comprobado",
+      "cita": "Es notorio  que  Manuel Guancachoque  es hijo  Espurio de Antolin  Ortiz , Sanbo cerros  unos de los  mas  sangriento caudillo  que tuvo  el interpret",
+      "folio": 28,
+      "confianza": 1.0
+    },
+    {
+      "id": "evento_agresion_agustina_falcon",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Agresion_Fisica"
+    },
+    {
+      "id": "afirmacion_agresion_madre",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "Acusacion",
+      "estado": "Alegato_No_Comprobado",
+      "cita": "tuvo  valor  de  ponerñle  hermanos  a su propio  madre  de tal modo , que la  estropio e  inhabilito  por bastante  tiempo .",
+      "folio": 28,
+      "confianza": 1.0
+    },
+    {
+      "id": "evento_acometimiento_chuquitapa",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Agresion_Fisica"
+    },
+    {
+      "id": "afirmacion_acometimiento_cacique",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "Acusacion",
+      "estado": "Alegato_No_Comprobado",
+      "cita": "tuvo. folio 28 osadia  que  acometen a su casique y alcalde mayor  Don Andres Chuquitapa",
+      "folio": 28,
+      "confianza": 1.0
+    },
+    {
+      "id": "exp_ccc_14_18_f28_seg18",
+      "etiqueta": "FuenteArchivistica",
+      "fondo": "Intendencia",
+      "serie": "Causas Criminales",
+      "legajo": 14,
+      "expediente": 18,
+      "folio": 28
+    },
+    {
+      "id": "persona_juan_cazorla",
+      "etiqueta": "Actor",
+      "nombre": "Juan Cazorla",
+      "variantes": [
+        "Juan Cazorla"
+      ],
+      "tipo": "Persona",
+      "condicion": "Desconocido",
+      "cargos": []
+    },
+    {
+      "id": "persona_juan_quinones",
+      "etiqueta": "Actor",
+      "nombre": "Juan Quiñones",
+      "variantes": [
+        "Don Juan Quiñones"
+      ],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": [
+        "Teniente Alguacil"
+      ]
+    },
+    {
+      "id": "persona_informante_comisionado",
+      "etiqueta": "Actor",
+      "nombre": "Comisionado Informante",
+      "variantes": [
+        "Yo"
+      ],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": [
+        "Fiscal"
+      ]
+    },
+    {
+      "id": "ayllu_ucho",
+      "etiqueta": "Actor",
+      "nombre": "Ayllu de Ucho",
+      "variantes": [
+        "Ayllos Ucho"
+      ],
+      "tipo": "Ayllu_Comunidad",
+      "cargos": []
+    },
+    {
+      "id": "lugar_cuzco",
+      "etiqueta": "Lugar",
+      "nombre": "Ciudad del Cuzco",
+      "tipo": "Ciudad",
+      "jurisdiccion": "Intendencia del Cusco"
+    },
+    {
+      "id": "objeto_objeto_certificacion_f2",
+      "etiqueta": "ObjetoBien",
+      "descripcion": "Certificación a folios 2 extendida a nombre del teniente Alguacil Don Juan Quiñones",
+      "tipo": "Otro",
+      "cantidad": "2 fojas"
+    },
+    {
+      "id": "objeto_objeto_documentos_falsos",
+      "etiqueta": "ObjetoBien",
+      "descripcion": "Documentos presentados sobre el bullicio y asonada de parcialidad",
+      "tipo": "Otro"
+    },
+    {
+      "id": "evento_auto_sicuani_18061108",
+      "etiqueta": "EventoInstitucional",
+      "tipo": "ResolucionJudicial",
+      "categoria": "Judicial_Conflictos",
+      "fecha": "8 de Noviembre de 1806",
+      "lugar": "lugar_sicuani"
+    },
+    {
+      "id": "evento_informe_cuzco_18061118",
+      "etiqueta": "EventoInstitucional",
+      "tipo": "ResolucionJudicial",
+      "categoria": "Judicial_Conflictos",
+      "fecha": "18 de Noviembre de 1806",
+      "lugar": "lugar_cuzco"
+    },
+    {
+      "id": "evento_falsificacion_documentos",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Denuncia",
+      "fecha_alegada": "1806"
+    },
+    {
+      "id": "afirmacion_01_falsedad_documentos",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "ResolucionOficial",
+      "estado": "Confirmado_Oficial",
+      "cita": "los  Documentos  que presento Manuel  Guancachoque sobre el bullicio, y  asonada de Parcialidad  a ver sucedido en Derechos  Pueblo de  Resultar  de l",
+      "folio": 28,
+      "confianza": 1.0
+    },
+    {
+      "id": "evento_agresion_recaudador",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Agresion_Fisica",
+      "fecha_alegada": "1806"
+    },
+    {
+      "id": "afirmacion_02_insulto_recaudador",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "TestimonioDirecto",
+      "estado": "Alegato_No_Comprobado",
+      "cita": "Guancachoque tubo  el atrevimiento  de insultar al Recaudador  con  palabras injuriosas, y de manos, lo que  visto  por los  Alcaldes.",
+      "folio": 28,
+      "confianza": 1.0
+    },
+    {
+      "id": "exp_ccc_14_18_f29_seg19",
+      "etiqueta": "FuenteArchivistica",
+      "fondo": "Intendencia",
+      "serie": "Causas Criminales",
+      "legajo": 14,
+      "expediente": 18,
+      "folio": 29
+    },
+    {
+      "id": "persona_agustin_valdes",
+      "etiqueta": "Actor",
+      "nombre": "Agustín Valdés",
+      "variantes": [
+        "Agustin Valdes"
+      ],
+      "tipo": "Persona",
+      "condicion": "Eclesiástico",
+      "cargos": [
+        "Cura interino"
+      ]
+    },
+    {
+      "id": "persona_francisco_munoz",
+      "etiqueta": "Actor",
+      "nombre": "Francisco Muñoz",
+      "variantes": [
+        "Francisco Muñoz"
+      ],
+      "tipo": "Persona",
+      "cargos": [
+        "Presidente"
+      ]
+    },
+    {
+      "id": "persona_clemente",
+      "etiqueta": "Actor",
+      "nombre": "Clemente",
+      "variantes": [
+        "Clemente"
+      ],
+      "tipo": "Persona",
+      "cargos": []
+    },
+    {
+      "id": "ayllu_chuquitapa",
+      "etiqueta": "Actor",
+      "nombre": "Ayllu de Chuquitapa",
+      "variantes": [
+        "Ayllus de Chuquitapa"
+      ],
+      "tipo": "Ayllu_Comunidad",
+      "cargos": []
+    },
+    {
+      "id": "lugar_carcel_sicuani",
+      "etiqueta": "Lugar",
+      "nombre": "cárcel",
+      "tipo": "Edificio_Institucion",
+      "jurisdiccion": "Siquani"
+    },
+    {
+      "id": "evento_mision_informe_subdelegado",
+      "etiqueta": "EventoInstitucional",
+      "tipo": "ResolucionJudicial",
+      "categoria": "Administrativo_Politico",
+      "fecha": "1806-11-08",
+      "lugar": "lugar_sicuani"
+    },
+    {
+      "id": "evento_agresion_y_carcel",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Encarcelamiento"
+    },
+    {
+      "id": "evento_sublevacion_alegada",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Tumulto_Alboroto"
+    },
+    {
+      "id": "evento_informe_conducta",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Denuncia"
+    },
+    {
+      "id": "exp_ccc_14_18_f33_seg20",
+      "etiqueta": "FuenteArchivistica",
+      "fondo": "Intendencia",
+      "serie": "Causas Criminales",
+      "legajo": 14,
+      "expediente": 18,
+      "folio": 33
+    },
+    {
+      "id": "persona_munoz",
+      "etiqueta": "Actor",
+      "nombre": "Muñoz",
+      "variantes": [
+        "Muñoz"
+      ],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": []
+    },
+    {
+      "id": "objeto_bien_denuncios_tributarios",
+      "etiqueta": "ObjetoBien",
+      "descripcion": "denuncios de Yndios tributarios",
+      "tipo": "Indios_Tributarios"
+    },
+    {
+      "id": "evento_decreta_providencia_1806",
+      "etiqueta": "EventoInstitucional",
+      "tipo": "ResolucionJudicial",
+      "categoria": "Judicial_Conflictos",
+      "fecha": "26 de noviembre de 1806",
+      "lugar": "lugar_cusco"
+    },
+    {
+      "id": "evento_quejas_huancachoque",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Denuncia"
+    },
+    {
+      "id": "exp_ccc_14_18_f34_seg21",
+      "etiqueta": "FuenteArchivistica",
+      "fondo": "Intendencia",
+      "serie": "Causas Criminales",
+      "legajo": 14,
+      "expediente": 18,
+      "folio": 34
+    },
+    {
+      "id": "actor_lucio_gonzalo_del_rio",
+      "etiqueta": "Actor",
+      "nombre": "Lucio Gonzalo del Rio y Vial",
+      "variantes": [
+        "Gonzalo del Rio",
+        "don Lucio Gonzalo del Rio y Vial"
+      ],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": [
+        "del Concejo del Muy"
+      ]
+    },
+    {
+      "id": "actor_agustin_chacon",
+      "etiqueta": "Actor",
+      "nombre": "Agustín Chacón y Becerra",
+      "variantes": [
+        "Agustin Chacon y Becerra",
+        "Chacon"
+      ],
+      "tipo": "Persona",
+      "condicion": "EspanolVecino",
+      "cargos": [
+        "Escribano"
+      ]
+    },
+    {
+      "id": "actor_matias_ugarte",
+      "etiqueta": "Actor",
+      "nombre": "Matías Ugarte",
+      "variantes": [
+        "Matias Ugarte"
+      ],
+      "tipo": "Persona",
+      "cargos": [
+        "Notario Público"
+      ]
+    },
+    {
+      "id": "lugar_urubamba",
+      "etiqueta": "Lugar",
+      "nombre": "provincia de Urubamba",
+      "tipo": "Partido_Provincia",
+      "jurisdiccion": "Intendencia del Cusco"
+    },
+    {
+      "id": "objeto_objeto_venta_otorgada",
+      "etiqueta": "ObjetoBien",
+      "descripcion": "Venta otorgada por la señora registrada en el registro del bienio comité",
+      "tipo": "Inmueble_Tierra"
+    },
+    {
+      "id": "evento_auto_judicial_1806",
+      "etiqueta": "EventoInstitucional",
+      "tipo": "ResolucionJudicial",
+      "categoria": "Judicial_Conflictos",
+      "fecha": "20 de Noviembre de 1806",
+      "lugar": "Ciudad del Cuzco"
+    },
+    {
+      "id": "evento_notificacion_auto_1810",
+      "etiqueta": "EventoInstitucional",
+      "tipo": "ResolucionJudicial",
+      "categoria": "Judicial_Conflictos",
+      "fecha": "23 de Diciembre de 1810",
+      "lugar": "Ciudad del Cuzco"
+    },
+    {
+      "id": "evento_notificacion_auto_1806",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "ResolucionJudicial",
+      "fecha_alegada": "26 de noviembre de 1806"
+    },
+    {
+      "id": "afirmacion_notificacion_1806",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "ResolucionOficial",
+      "estado": "Confirmado_Oficial",
+      "cita": "Yo el escribano hacia presente el entendido del Auto marginal presedente al señor don Lucio Gonzalo del Rio y Vial",
+      "folio": 34,
+      "confianza": 1.0
+    },
+    {
+      "id": "evento_certificacion_notarial",
+      "etiqueta": "EventoTestimoniado",
+      "tipo": "Compraventa"
+    },
+    {
+      "id": "afirmacion_certificacion_ugarte",
+      "etiqueta": "AfirmacionHistorica",
+      "tipo": "ResolucionOficial",
+      "estado": "Confirmado_Oficial",
+      "cita": "El ciudadano Matias Ugarte = Notario Público de la provincia de Urubamba certifica en cuanto puede yo el derecho le permite",
+      "folio": 34,
+      "confianza": 1.0
+    }
+  ],
+  "aristas": [
+    {
+      "origen": "persona_manuel_mancachoque",
+      "destino": "exp_ccc_14_18_f01_seg01",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_andres_chuquitapa",
+      "destino": "exp_ccc_14_18_f01_seg01",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "ayllu_tinta",
+      "destino": "exp_ccc_14_18_f01_seg01",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "institucion_real_hacienda",
+      "destino": "exp_ccc_14_18_f01_seg01",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_tinta",
+      "destino": "exp_ccc_14_18_f01_seg01",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "objeto_objeto_matricula_tributarios",
+      "destino": "exp_ccc_14_18_f01_seg01",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_manuel_mancachoque",
+      "destino": "evento_apertura_expediente_1806",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Denunciante"
+    },
+    {
+      "origen": "institucion_real_hacienda",
+      "destino": "evento_apertura_expediente_1806",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Juez_Subdelegado"
+    },
+    {
+      "origen": "persona_manuel_mancachoque",
+      "destino": "afirmacion_01",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_01",
+      "destino": "evento_denuncia_maltratos_chuquitapa",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_01",
+      "destino": "exp_ccc_14_18_f01_seg01",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_manuel_mancachoque",
+      "destino": "evento_denuncia_maltratos_chuquitapa",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciante"
+    },
+    {
+      "origen": "persona_andres_chuquitapa",
+      "destino": "evento_denuncia_maltratos_chuquitapa",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciado"
+    },
+    {
+      "origen": "evento_denuncia_maltratos_chuquitapa",
+      "destino": "lugar_tinta",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "evento_denuncia_maltratos_chuquitapa",
+      "destino": "objeto_objeto_matricula_tributarios",
+      "tipo": "INVOLUCRA_BIEN"
+    },
+    {
+      "origen": "persona_isidro_cano",
+      "destino": "exp_ccc_14_18_f02_seg02",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_guancachoque",
+      "destino": "exp_ccc_14_18_f02_seg02",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_chuquitapa",
+      "destino": "exp_ccc_14_18_f02_seg02",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_antonio_reparas",
+      "destino": "exp_ccc_14_18_f02_seg02",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_miguel_orey",
+      "destino": "exp_ccc_14_18_f02_seg02",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_tupa_amaro",
+      "destino": "exp_ccc_14_18_f02_seg02",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "colectivo_indios_tinta",
+      "destino": "exp_ccc_14_18_f02_seg02",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_tinta",
+      "destino": "exp_ccc_14_18_f02_seg02",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_carcel_tinta",
+      "destino": "exp_ccc_14_18_f02_seg02",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_plaza_tinta",
+      "destino": "exp_ccc_14_18_f02_seg02",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "objeto_objeto_chacras",
+      "destino": "exp_ccc_14_18_f02_seg02",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_isidro_cano",
+      "destino": "evento_certificacion_oficial_cano",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Testigo"
+    },
+    {
+      "origen": "evento_certificacion_oficial_cano",
+      "destino": "lugar_tinta",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "persona_isidro_cano",
+      "destino": "afirmacion_01",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_01",
+      "destino": "evento_alboroto_guancachoque",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_01",
+      "destino": "exp_ccc_14_18_f02_seg02",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_guancachoque",
+      "destino": "evento_alboroto_guancachoque",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Victima"
+    },
+    {
+      "origen": "colectivo_indios_tinta",
+      "destino": "evento_alboroto_guancachoque",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Agresor_Alegado"
+    },
+    {
+      "origen": "evento_alboroto_guancachoque",
+      "destino": "lugar_tinta",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "persona_isidro_cano",
+      "destino": "afirmacion_02",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_02",
+      "destino": "evento_sospecha_traicion_chuquitapa",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_02",
+      "destino": "exp_ccc_14_18_f02_seg02",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_chuquitapa",
+      "destino": "evento_sospecha_traicion_chuquitapa",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciado"
+    },
+    {
+      "origen": "evento_sospecha_traicion_chuquitapa",
+      "destino": "lugar_tinta",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "persona_isidro_cano",
+      "destino": "afirmacion_03",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_03",
+      "destino": "evento_ataque_capitan_orey",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_03",
+      "destino": "exp_ccc_14_18_f02_seg02",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_chuquitapa",
+      "destino": "evento_ataque_capitan_orey",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Agresor_Alegado"
+    },
+    {
+      "origen": "persona_miguel_orey",
+      "destino": "evento_ataque_capitan_orey",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Victima"
+    },
+    {
+      "origen": "persona_antonio_reparas",
+      "destino": "evento_ataque_capitan_orey",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Corregidor"
+    },
+    {
+      "origen": "evento_ataque_capitan_orey",
+      "destino": "lugar_tinta",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "persona_isidro_cano",
+      "destino": "afirmacion_04",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_04",
+      "destino": "evento_complicidad_tupa_amaro_y_despojo",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_04",
+      "destino": "exp_ccc_14_18_f02_seg02",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_chuquitapa",
+      "destino": "evento_complicidad_tupa_amaro_y_despojo",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciado"
+    },
+    {
+      "origen": "persona_tupa_amaro",
+      "destino": "evento_complicidad_tupa_amaro_y_despojo",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Agresor_Alegado"
+    },
+    {
+      "origen": "colectivo_indios_tinta",
+      "destino": "evento_complicidad_tupa_amaro_y_despojo",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Victima"
+    },
+    {
+      "origen": "evento_complicidad_tupa_amaro_y_despojo",
+      "destino": "lugar_tinta",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "evento_complicidad_tupa_amaro_y_despojo",
+      "destino": "objeto_objeto_chacras",
+      "tipo": "INVOLUCRA_BIEN"
+    },
+    {
+      "origen": "actor_santiago_cazorla",
+      "destino": "exp_ccc_14_18_f03_seg03",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_manuel_huancachoque",
+      "destino": "exp_ccc_14_18_f03_seg03",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_juan_quinones",
+      "destino": "exp_ccc_14_18_f03_seg03",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_andres_chukitapa",
+      "destino": "exp_ccc_14_18_f03_seg03",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_indios_chukitapa",
+      "destino": "exp_ccc_14_18_f03_seg03",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_miguel_orey",
+      "destino": "exp_ccc_14_18_f03_seg03",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_javier_aparicio",
+      "destino": "exp_ccc_14_18_f03_seg03",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_juan_cazorla",
+      "destino": "exp_ccc_14_18_f03_seg03",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_tinta",
+      "destino": "exp_ccc_14_18_f03_seg03",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_plaza_tinta",
+      "destino": "exp_ccc_14_18_f03_seg03",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_carcel_tinta",
+      "destino": "exp_ccc_14_18_f03_seg03",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_san_pedro_cacha",
+      "destino": "exp_ccc_14_18_f03_seg03",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "objeto_objeto_robo_cacique",
+      "destino": "exp_ccc_14_18_f03_seg03",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_santiago_cazorla",
+      "destino": "evento_emision_certificacion_cazorla",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Testigo"
+    },
+    {
+      "origen": "actor_manuel_huancachoque",
+      "destino": "evento_emision_certificacion_cazorla",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Denunciante"
+    },
+    {
+      "origen": "evento_emision_certificacion_cazorla",
+      "destino": "lugar_tinta",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "actor_santiago_cazorla",
+      "destino": "afirmacion_servicio_guamanchoque",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_servicio_guamanchoque",
+      "destino": "evento_servicio_militar_guamanchoque",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_servicio_guamanchoque",
+      "destino": "exp_ccc_14_18_f03_seg03",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "actor_manuel_huancachoque",
+      "destino": "evento_servicio_militar_guamanchoque",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Soldado"
+    },
+    {
+      "origen": "actor_santiago_cazorla",
+      "destino": "evento_servicio_militar_guamanchoque",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Sargento"
+    },
+    {
+      "origen": "evento_servicio_militar_guamanchoque",
+      "destino": "lugar_tinta",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "actor_juan_quinones",
+      "destino": "afirmacion_agresion_huancachoque",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_agresion_huancachoque",
+      "destino": "evento_agresion_huancachoque",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_agresion_huancachoque",
+      "destino": "exp_ccc_14_18_f03_seg03",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "actor_manuel_huancachoque",
+      "destino": "evento_agresion_huancachoque",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Victima"
+    },
+    {
+      "origen": "actor_indios_chukitapa",
+      "destino": "evento_agresion_huancachoque",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Agresor_Alegado"
+    },
+    {
+      "origen": "actor_andres_chukitapa",
+      "destino": "evento_agresion_huancachoque",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Acusado"
+    },
+    {
+      "origen": "evento_agresion_huancachoque",
+      "destino": "lugar_plaza_tinta",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "evento_agresion_huancachoque",
+      "destino": "objeto_objeto_robo_cacique",
+      "tipo": "INVOLUCRA_BIEN"
+    },
+    {
+      "origen": "actor_juan_quinones",
+      "destino": "afirmacion_tumulto_carcel",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_tumulto_carcel",
+      "destino": "evento_motin_carcel_tinta",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_tumulto_carcel",
+      "destino": "exp_ccc_14_18_f03_seg03",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "actor_indios_chukitapa",
+      "destino": "evento_motin_carcel_tinta",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Agresor_Alegado"
+    },
+    {
+      "origen": "actor_manuel_huancachoque",
+      "destino": "evento_motin_carcel_tinta",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Victima"
+    },
+    {
+      "origen": "actor_juan_quinones",
+      "destino": "evento_motin_carcel_tinta",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Testigo"
+    },
+    {
+      "origen": "actor_santiago_cazorla",
+      "destino": "evento_motin_carcel_tinta",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Victima"
+    },
+    {
+      "origen": "evento_motin_carcel_tinta",
+      "destino": "lugar_carcel_tinta",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "actor_juan_quinones",
+      "destino": "afirmacion_alzamiento_orey",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_alzamiento_orey",
+      "destino": "evento_ataque_miguel_orey",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_alzamiento_orey",
+      "destino": "exp_ccc_14_18_f03_seg03",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "actor_andres_chukitapa",
+      "destino": "evento_ataque_miguel_orey",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Agresor_Alegado"
+    },
+    {
+      "origen": "actor_miguel_orey",
+      "destino": "evento_ataque_miguel_orey",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Victima"
+    },
+    {
+      "origen": "persona_fernando_orue",
+      "destino": "exp_ccc_14_18_f04_seg04",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_manuel_huancachoque",
+      "destino": "exp_ccc_14_18_f04_seg04",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "ayllu_tinta",
+      "destino": "exp_ccc_14_18_f04_seg04",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_jose_gabriel_tupac_amaru",
+      "destino": "exp_ccc_14_18_f04_seg04",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_chuquitapa",
+      "destino": "exp_ccc_14_18_f04_seg04",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_juan_antonio_reparas",
+      "destino": "exp_ccc_14_18_f04_seg04",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_tinta",
+      "destino": "exp_ccc_14_18_f04_seg04",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_carcel_tinta",
+      "destino": "exp_ccc_14_18_f04_seg04",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_plaza_tinta",
+      "destino": "exp_ccc_14_18_f04_seg04",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "objeto_objeto_indios_ocultados",
+      "destino": "exp_ccc_14_18_f04_seg04",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_fernando_orue",
+      "destino": "evento_presentacion_declaracion_orue",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Denunciante"
+    },
+    {
+      "origen": "evento_presentacion_declaracion_orue",
+      "destino": "lugar_tinta",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "persona_fernando_orue",
+      "destino": "afirmacion_01_alboroto_y_agresion",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_01_alboroto_y_agresion",
+      "destino": "evento_alboroto_contra_huancachoque",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_01_alboroto_y_agresion",
+      "destino": "exp_ccc_14_18_f04_seg04",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_fernando_orue",
+      "destino": "evento_alboroto_contra_huancachoque",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Testigo"
+    },
+    {
+      "origen": "ayllu_tinta",
+      "destino": "evento_alboroto_contra_huancachoque",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Agresor_Alegado"
+    },
+    {
+      "origen": "persona_manuel_huancachoque",
+      "destino": "evento_alboroto_contra_huancachoque",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Victima"
+    },
+    {
+      "origen": "evento_alboroto_contra_huancachoque",
+      "destino": "lugar_carcel_tinta",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "persona_fernando_orue",
+      "destino": "afirmacion_02_denuncia_ocultacion",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_02_denuncia_ocultacion",
+      "destino": "evento_denuncia_indios_ocultos",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_02_denuncia_ocultacion",
+      "destino": "exp_ccc_14_18_f04_seg04",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_manuel_huancachoque",
+      "destino": "evento_denuncia_indios_ocultos",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciante"
+    },
+    {
+      "origen": "evento_denuncia_indios_ocultos",
+      "destino": "lugar_tinta",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "evento_denuncia_indios_ocultos",
+      "destino": "objeto_objeto_indios_ocultados",
+      "tipo": "INVOLUCRA_BIEN"
+    },
+    {
+      "origen": "persona_fernando_orue",
+      "destino": "afirmacion_03_acusacion_chuquitapa",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_03_acusacion_chuquitapa",
+      "destino": "evento_alzamiento_chuquitapa",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_03_acusacion_chuquitapa",
+      "destino": "exp_ccc_14_18_f04_seg04",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_chuquitapa",
+      "destino": "evento_alzamiento_chuquitapa",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Agresor_Alegado"
+    },
+    {
+      "origen": "persona_juan_antonio_reparas",
+      "destino": "evento_alzamiento_chuquitapa",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Juez_Subdelegado"
+    },
+    {
+      "origen": "persona_jose_gabriel_tupac_amaru",
+      "destino": "evento_alzamiento_chuquitapa",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Agresor_Alegado"
+    },
+    {
+      "origen": "evento_alzamiento_chuquitapa",
+      "destino": "lugar_tinta",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "actor_martin_cazorla",
+      "destino": "exp_ccc_14_18_f05_seg05",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_manuel_huancachoque",
+      "destino": "exp_ccc_14_18_f05_seg05",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_cacique_anonimo",
+      "destino": "exp_ccc_14_18_f05_seg05",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_indios_comunidad",
+      "destino": "exp_ccc_14_18_f05_seg05",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_carcel",
+      "destino": "exp_ccc_14_18_f05_seg05",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "objeto_objeto_defraudacion_reales_arcas",
+      "destino": "exp_ccc_14_18_f05_seg05",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "objeto_objeto_garrotes",
+      "destino": "exp_ccc_14_18_f05_seg05",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_martin_cazorla",
+      "destino": "evento_emision_certificacion_cazorla",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Testigo"
+    },
+    {
+      "origen": "actor_martin_cazorla",
+      "destino": "afirmacion_01_robo_cacique_y_agresion",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_01_robo_cacique_y_agresion",
+      "destino": "evento_agresion_y_encarcelamiento_huancachoque",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_01_robo_cacique_y_agresion",
+      "destino": "exp_ccc_14_18_f05_seg05",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "actor_manuel_huancachoque",
+      "destino": "evento_agresion_y_encarcelamiento_huancachoque",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Victima"
+    },
+    {
+      "origen": "actor_indios_comunidad",
+      "destino": "evento_agresion_y_encarcelamiento_huancachoque",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Agresor_Alegado"
+    },
+    {
+      "origen": "actor_cacique_anonimo",
+      "destino": "evento_agresion_y_encarcelamiento_huancachoque",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciado"
+    },
+    {
+      "origen": "evento_agresion_y_encarcelamiento_huancachoque",
+      "destino": "lugar_carcel",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "evento_agresion_y_encarcelamiento_huancachoque",
+      "destino": "objeto_objeto_defraudacion_reales_arcas",
+      "tipo": "INVOLUCRA_BIEN"
+    },
+    {
+      "origen": "actor_martin_cazorla",
+      "destino": "afirmacion_02_alzamiento_indios",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_02_alzamiento_indios",
+      "destino": "evento_motin_garrotes",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_02_alzamiento_indios",
+      "destino": "exp_ccc_14_18_f05_seg05",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "actor_indios_comunidad",
+      "destino": "evento_motin_garrotes",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Agresor_Alegado"
+    },
+    {
+      "origen": "actor_martin_cazorla",
+      "destino": "evento_motin_garrotes",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Victima"
+    },
+    {
+      "origen": "evento_motin_garrotes",
+      "destino": "objeto_objeto_garrotes",
+      "tipo": "INVOLUCRA_BIEN"
+    },
+    {
+      "origen": "actor_manuel_huancachoque",
+      "destino": "exp_ccc_14_18_f06_seg06",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_andres_choquitapa",
+      "destino": "exp_ccc_14_18_f06_seg06",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_fiscal_protector",
+      "destino": "exp_ccc_14_18_f06_seg06",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_subdelegado_tinta",
+      "destino": "exp_ccc_14_18_f06_seg06",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_segundas_y_alcaldes",
+      "destino": "exp_ccc_14_18_f06_seg06",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_cusco",
+      "destino": "exp_ccc_14_18_f06_seg06",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_pueblo_tinta",
+      "destino": "exp_ccc_14_18_f06_seg06",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_ayllu_tinta",
+      "destino": "exp_ccc_14_18_f06_seg06",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_ayllu_uchu",
+      "destino": "exp_ccc_14_18_f06_seg06",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_carcel_tinta",
+      "destino": "exp_ccc_14_18_f06_seg06",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "objeto_obj_tributarios_ocultados",
+      "destino": "exp_ccc_14_18_f06_seg06",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_manuel_huancachoque",
+      "destino": "evt_presentacion_escrito",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Denunciante"
+    },
+    {
+      "origen": "actor_fiscal_protector",
+      "destino": "evt_presentacion_escrito",
+      "tipo": "PARTICIPA_EN",
+      "rol": "ProtectorDeNaturales"
+    },
+    {
+      "origen": "evt_presentacion_escrito",
+      "destino": "lugar_cusco",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "actor_manuel_huancachoque",
+      "destino": "afir_01_ocultacion_tributarios",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afir_01_ocultacion_tributarios",
+      "destino": "evt_ocultacion_tributarios",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afir_01_ocultacion_tributarios",
+      "destino": "exp_ccc_14_18_f06_seg06",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "actor_manuel_huancachoque",
+      "destino": "evt_ocultacion_tributarios",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciante"
+    },
+    {
+      "origen": "actor_andres_choquitapa",
+      "destino": "evt_ocultacion_tributarios",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciado"
+    },
+    {
+      "origen": "evt_ocultacion_tributarios",
+      "destino": "lugar_pueblo_tinta",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "evt_ocultacion_tributarios",
+      "destino": "objeto_obj_tributarios_ocultados",
+      "tipo": "INVOLUCRA_BIEN"
+    },
+    {
+      "origen": "actor_manuel_huancachoque",
+      "destino": "afir_02_agresion_y_encarcelamiento",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afir_02_agresion_y_encarcelamiento",
+      "destino": "evt_agresion_encarcelamiento",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afir_02_agresion_y_encarcelamiento",
+      "destino": "exp_ccc_14_18_f06_seg06",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "actor_manuel_huancachoque",
+      "destino": "evt_agresion_encarcelamiento",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Victima"
+    },
+    {
+      "origen": "actor_segundas_y_alcaldes",
+      "destino": "evt_agresion_encarcelamiento",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Agresor_Alegado"
+    },
+    {
+      "origen": "actor_andres_choquitapa",
+      "destino": "evt_agresion_encarcelamiento",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciado"
+    },
+    {
+      "origen": "evt_agresion_encarcelamiento",
+      "destino": "lugar_carcel_tinta",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "persona_manuel_huancachoque",
+      "destino": "exp_ccc_14_18_f07_seg07",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_chuquitapa",
+      "destino": "exp_ccc_14_18_f07_seg07",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_subdelegado",
+      "destino": "exp_ccc_14_18_f07_seg07",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_presidente_intendente",
+      "destino": "exp_ccc_14_18_f07_seg07",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "colectivo_caterva_indios",
+      "destino": "exp_ccc_14_18_f07_seg07",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_pueblo_unnamed",
+      "destino": "exp_ccc_14_18_f07_seg07",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "objeto_bien_dinero_usurpado",
+      "destino": "exp_ccc_14_18_f07_seg07",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "objeto_bien_matricula_tributo",
+      "destino": "exp_ccc_14_18_f07_seg07",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_manuel_huancachoque",
+      "destino": "evento_presentacion_peticion_huancachoque",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Denunciante"
+    },
+    {
+      "origen": "persona_presidente_intendente",
+      "destino": "evento_presentacion_peticion_huancachoque",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Juez_Subdelegado"
+    },
+    {
+      "origen": "persona_manuel_huancachoque",
+      "destino": "afirmacion_01_encarcelamiento_agresion",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_01_encarcelamiento_agresion",
+      "destino": "evento_encarcelamiento_huancachoque",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_01_encarcelamiento_agresion",
+      "destino": "exp_ccc_14_18_f07_seg07",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_manuel_huancachoque",
+      "destino": "evento_encarcelamiento_huancachoque",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Victima"
+    },
+    {
+      "origen": "persona_chuquitapa",
+      "destino": "evento_encarcelamiento_huancachoque",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Agresor_Alegado"
+    },
+    {
+      "origen": "colectivo_caterva_indios",
+      "destino": "evento_encarcelamiento_huancachoque",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Agresor_Alegado"
+    },
+    {
+      "origen": "evento_encarcelamiento_huancachoque",
+      "destino": "lugar_pueblo_unnamed",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "persona_manuel_huancachoque",
+      "destino": "afirmacion_02_indebida_matriculacion",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_02_indebida_matriculacion",
+      "destino": "evento_matriculacion_tributaria",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_02_indebida_matriculacion",
+      "destino": "exp_ccc_14_18_f07_seg07",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_manuel_huancachoque",
+      "destino": "evento_matriculacion_tributaria",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Victima"
+    },
+    {
+      "origen": "persona_chuquitapa",
+      "destino": "evento_matriculacion_tributaria",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Agresor_Alegado"
+    },
+    {
+      "origen": "evento_matriculacion_tributaria",
+      "destino": "lugar_pueblo_unnamed",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "evento_matriculacion_tributaria",
+      "destino": "objeto_bien_matricula_tributo",
+      "tipo": "INVOLUCRA_BIEN"
+    },
+    {
+      "origen": "persona_manuel_huancachoque",
+      "destino": "afirmacion_03_usurpacion_dinero",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_03_usurpacion_dinero",
+      "destino": "evento_usurpacion_reales_fondos",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_03_usurpacion_dinero",
+      "destino": "exp_ccc_14_18_f07_seg07",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_chuquitapa",
+      "destino": "evento_usurpacion_reales_fondos",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciado"
+    },
+    {
+      "origen": "evento_usurpacion_reales_fondos",
+      "destino": "objeto_bien_dinero_usurpado",
+      "tipo": "INVOLUCRA_BIEN"
+    },
+    {
+      "origen": "persona_manuel_guancachoque",
+      "destino": "exp_ccc_14_18_f08_seg08",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_andres_chuquitapa",
+      "destino": "exp_ccc_14_18_f08_seg08",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_fiscal_sm",
+      "destino": "exp_ccc_14_18_f08_seg08",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_subdelegado_tinta",
+      "destino": "exp_ccc_14_18_f08_seg08",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_pueblo_tinta",
+      "destino": "exp_ccc_14_18_f08_seg08",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_partido_tinta",
+      "destino": "exp_ccc_14_18_f08_seg08",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_carcel_tinta",
+      "destino": "exp_ccc_14_18_f08_seg08",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "objeto_objeto_51_tributarios",
+      "destino": "exp_ccc_14_18_f08_seg08",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_fiscal_sm",
+      "destino": "evt_vista_fiscal",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Fiscal"
+    },
+    {
+      "origen": "persona_manuel_guancachoque",
+      "destino": "evt_vista_fiscal",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Denunciante"
+    },
+    {
+      "origen": "persona_manuel_guancachoque",
+      "destino": "afir_01_denuncia_ocultacion",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afir_01_denuncia_ocultacion",
+      "destino": "evt_denuncia_51_tributarios",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afir_01_denuncia_ocultacion",
+      "destino": "exp_ccc_14_18_f08_seg08",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_manuel_guancachoque",
+      "destino": "evt_denuncia_51_tributarios",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciante"
+    },
+    {
+      "origen": "persona_andres_chuquitapa",
+      "destino": "evt_denuncia_51_tributarios",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciado"
+    },
+    {
+      "origen": "evt_denuncia_51_tributarios",
+      "destino": "lugar_partido_tinta",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "evt_denuncia_51_tributarios",
+      "destino": "objeto_objeto_51_tributarios",
+      "tipo": "INVOLUCRA_BIEN"
+    },
+    {
+      "origen": "persona_manuel_guancachoque",
+      "destino": "afir_02_agresion_y_atentado",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afir_02_agresion_y_atentado",
+      "destino": "evt_agresion_y_prision",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afir_02_agresion_y_atentado",
+      "destino": "exp_ccc_14_18_f08_seg08",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_andres_chuquitapa",
+      "destino": "evt_agresion_y_prision",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Agresor_Alegado"
+    },
+    {
+      "origen": "persona_manuel_guancachoque",
+      "destino": "evt_agresion_y_prision",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Victima"
+    },
+    {
+      "origen": "evt_agresion_y_prision",
+      "destino": "lugar_carcel_tinta",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "actor_luis_gomez_del_rio",
+      "destino": "exp_ccc_14_18_f09_seg09",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_chacon",
+      "destino": "exp_ccc_14_18_f09_seg09",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_manuel_galeano",
+      "destino": "exp_ccc_14_18_f09_seg09",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_manuel_guancachoque",
+      "destino": "exp_ccc_14_18_f09_seg09",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_manuel_valencia",
+      "destino": "exp_ccc_14_18_f09_seg09",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_marcos_salcedo",
+      "destino": "exp_ccc_14_18_f09_seg09",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_juan_clemente_jordan",
+      "destino": "exp_ccc_14_18_f09_seg09",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_cusco",
+      "destino": "exp_ccc_14_18_f09_seg09",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_tinta",
+      "destino": "exp_ccc_14_18_f09_seg09",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_luis_gomez_del_rio",
+      "destino": "evento_dictamen_fiscal_gomez",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Fiscal"
+    },
+    {
+      "origen": "evento_dictamen_fiscal_gomez",
+      "destino": "lugar_cusco",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "actor_manuel_galeano",
+      "destino": "evento_ratificacion_juramentada",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Juez_Subdelegado"
+    },
+    {
+      "origen": "actor_manuel_guancachoque",
+      "destino": "evento_ratificacion_juramentada",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Declarante"
+    },
+    {
+      "origen": "actor_manuel_valencia",
+      "destino": "evento_ratificacion_juramentada",
+      "tipo": "PARTICIPA_EN",
+      "rol": "ProtectorDeNaturales"
+    },
+    {
+      "origen": "evento_ratificacion_juramentada",
+      "destino": "lugar_cusco",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "actor_manuel_guancachoque",
+      "destino": "afirmacion_01",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_01",
+      "destino": "evento_declaracion_guancachoque",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_01",
+      "destino": "exp_ccc_14_18_f09_seg09",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "actor_manuel_guancachoque",
+      "destino": "evento_declaracion_guancachoque",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Declarante"
+    },
+    {
+      "origen": "evento_declaracion_guancachoque",
+      "destino": "lugar_cusco",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "persona_ruiz_de_castilla",
+      "destino": "exp_ccc_14_18_f10_seg10",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_antonio_chacon",
+      "destino": "exp_ccc_14_18_f10_seg10",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_luis_gonzalo_del_rio",
+      "destino": "exp_ccc_14_18_f10_seg10",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_manuel_huancachoque",
+      "destino": "exp_ccc_14_18_f10_seg10",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_andres_chuquitapa",
+      "destino": "exp_ccc_14_18_f10_seg10",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_subdelegado_tinta",
+      "destino": "exp_ccc_14_18_f10_seg10",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_cusco",
+      "destino": "exp_ccc_14_18_f10_seg10",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_pueblo_tinta",
+      "destino": "exp_ccc_14_18_f10_seg10",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_partido_tinta",
+      "destino": "exp_ccc_14_18_f10_seg10",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "objeto_objeto_51_indios_tributarios",
+      "destino": "exp_ccc_14_18_f10_seg10",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_ruiz_de_castilla",
+      "destino": "evento_auto_judicial_castilla_1806_08_27",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Juez_Subdelegado"
+    },
+    {
+      "origen": "persona_antonio_chacon",
+      "destino": "evento_auto_judicial_castilla_1806_08_27",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Escribano"
+    },
+    {
+      "origen": "evento_auto_judicial_castilla_1806_08_27",
+      "destino": "lugar_cusco",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "persona_antonio_chacon",
+      "destino": "evento_notificacion_fiscal_1806_08_27",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Escribano"
+    },
+    {
+      "origen": "persona_luis_gonzalo_del_rio",
+      "destino": "evento_notificacion_fiscal_1806_08_27",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Fiscal"
+    },
+    {
+      "origen": "evento_notificacion_fiscal_1806_08_27",
+      "destino": "lugar_cusco",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "persona_antonio_chacon",
+      "destino": "evento_notificacion_guancachoque_1806_08_27",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Escribano"
+    },
+    {
+      "origen": "persona_manuel_huancachoque",
+      "destino": "evento_notificacion_guancachoque_1806_08_27",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Denunciante"
+    },
+    {
+      "origen": "evento_notificacion_guancachoque_1806_08_27",
+      "destino": "lugar_cusco",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "persona_ruiz_de_castilla",
+      "destino": "evento_remision_expediente_1806_08_28",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Juez_Subdelegado"
+    },
+    {
+      "origen": "persona_subdelegado_tinta",
+      "destino": "evento_remision_expediente_1806_08_28",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Juez_Subdelegado"
+    },
+    {
+      "origen": "evento_remision_expediente_1806_08_28",
+      "destino": "lugar_cusco",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "persona_manuel_huancachoque",
+      "destino": "afirmacion_ocultacion_tributarios_01",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_ocultacion_tributarios_01",
+      "destino": "evento_ocultacion_tributarios_tinta",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_ocultacion_tributarios_01",
+      "destino": "exp_ccc_14_18_f10_seg10",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_andres_chuquitapa",
+      "destino": "evento_ocultacion_tributarios_tinta",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciado"
+    },
+    {
+      "origen": "persona_manuel_huancachoque",
+      "destino": "evento_ocultacion_tributarios_tinta",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciante"
+    },
+    {
+      "origen": "evento_ocultacion_tributarios_tinta",
+      "destino": "lugar_pueblo_tinta",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "evento_ocultacion_tributarios_tinta",
+      "destino": "objeto_objeto_51_indios_tributarios",
+      "tipo": "INVOLUCRA_BIEN"
+    },
+    {
+      "origen": "actor_manuel_guancachoque",
+      "destino": "exp_ccc_14_18_f10_seg11",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_andres_chuquitapa",
+      "destino": "exp_ccc_14_18_f10_seg11",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_pedro_de_la_mara",
+      "destino": "exp_ccc_14_18_f10_seg11",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_presidente_intendencia",
+      "destino": "exp_ccc_14_18_f10_seg11",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_sicuani",
+      "destino": "exp_ccc_14_18_f10_seg11",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_tinta",
+      "destino": "exp_ccc_14_18_f10_seg11",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "objeto_obj_indios_ocultos_51",
+      "destino": "exp_ccc_14_18_f10_seg11",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_pedro_de_la_mara",
+      "destino": "evento_auto_subdelegado_sicuani",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Subdelegado"
+    },
+    {
+      "origen": "actor_andres_chuquitapa",
+      "destino": "evento_auto_subdelegado_sicuani",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Denunciado"
+    },
+    {
+      "origen": "actor_manuel_guancachoque",
+      "destino": "evento_auto_subdelegado_sicuani",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Denunciante"
+    },
+    {
+      "origen": "evento_auto_subdelegado_sicuani",
+      "destino": "lugar_sicuani",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "actor_manuel_guancachoque",
+      "destino": "afirmacion_exp18_f10_01",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_exp18_f10_01",
+      "destino": "evento_ocultacion_tributarios_tinta",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_exp18_f10_01",
+      "destino": "exp_ccc_14_18_f10_seg11",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "actor_manuel_guancachoque",
+      "destino": "evento_ocultacion_tributarios_tinta",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciante"
+    },
+    {
+      "origen": "actor_andres_chuquitapa",
+      "destino": "evento_ocultacion_tributarios_tinta",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciado"
+    },
+    {
+      "origen": "evento_ocultacion_tributarios_tinta",
+      "destino": "lugar_tinta",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "evento_ocultacion_tributarios_tinta",
+      "destino": "objeto_obj_indios_ocultos_51",
+      "tipo": "INVOLUCRA_BIEN"
+    },
+    {
+      "origen": "persona_pedro_de_la_mata",
+      "destino": "exp_ccc_14_18_f10_seg12",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_mariano_figueroa",
+      "destino": "exp_ccc_14_18_f10_seg12",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_andres_chuquitapa",
+      "destino": "exp_ccc_14_18_f10_seg12",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_isidro_cano",
+      "destino": "exp_ccc_14_18_f10_seg12",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_tupac_amaru_ii",
+      "destino": "exp_ccc_14_18_f10_seg12",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_guancachoque",
+      "destino": "exp_ccc_14_18_f10_seg12",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_santiago_casorla",
+      "destino": "exp_ccc_14_18_f10_seg12",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_tinta",
+      "destino": "exp_ccc_14_18_f10_seg12",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "objeto_objeto_certificacion_cano",
+      "destino": "exp_ccc_14_18_f10_seg12",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_mariano_figueroa",
+      "destino": "evento_notificacion_chuquitapa",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Escribano"
+    },
+    {
+      "origen": "persona_andres_chuquitapa",
+      "destino": "evento_notificacion_chuquitapa",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Denunciado"
+    },
+    {
+      "origen": "evento_notificacion_chuquitapa",
+      "destino": "lugar_tinta",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "persona_pedro_de_la_mata",
+      "destino": "evento_tomada_declaracion_isidro_cano",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Juez_Subdelegado"
+    },
+    {
+      "origen": "persona_isidro_cano",
+      "destino": "evento_tomada_declaracion_isidro_cano",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Testigo"
+    },
+    {
+      "origen": "evento_tomada_declaracion_isidro_cano",
+      "destino": "lugar_tinta",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "evento_tomada_declaracion_isidro_cano",
+      "destino": "objeto_objeto_certificacion_cano",
+      "tipo": "INVOLUCRA_BIEN"
+    },
+    {
+      "origen": "persona_pedro_de_la_mata",
+      "destino": "afirmacion_exp18_f10_01",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_exp18_f10_01",
+      "destino": "evento_orden_retiro_chuquitapa",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_exp18_f10_01",
+      "destino": "exp_ccc_14_18_f10_seg12",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_pedro_de_la_mata",
+      "destino": "evento_orden_retiro_chuquitapa",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Juez_Subdelegado"
+    },
+    {
+      "origen": "persona_andres_chuquitapa",
+      "destino": "evento_orden_retiro_chuquitapa",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciado"
+    },
+    {
+      "origen": "evento_orden_retiro_chuquitapa",
+      "destino": "lugar_tinta",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "persona_isidro_cano",
+      "destino": "afirmacion_exp18_f10_02",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_exp18_f10_02",
+      "destino": "evento_rango_comisionado_tupac_amaru",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_exp18_f10_02",
+      "destino": "exp_ccc_14_18_f10_seg12",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_tupac_amaru_ii",
+      "destino": "evento_rango_comisionado_tupac_amaru",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Líder Rebelde"
+    },
+    {
+      "origen": "persona_isidro_cano",
+      "destino": "afirmacion_exp18_f10_03",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_exp18_f10_03",
+      "destino": "evento_motin_indios_guancachoque",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_exp18_f10_03",
+      "destino": "exp_ccc_14_18_f10_seg12",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_guancachoque",
+      "destino": "evento_motin_indios_guancachoque",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Victima"
+    },
+    {
+      "origen": "persona_santiago_casorla",
+      "destino": "evento_motin_indios_guancachoque",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Testigo"
+    },
+    {
+      "origen": "evento_motin_indios_guancachoque",
+      "destino": "lugar_tinta",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "persona_manuel_guancachoque",
+      "destino": "exp_ccc_14_18_f04_seg13",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_mariano_casorla",
+      "destino": "exp_ccc_14_18_f04_seg13",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_simon_arce",
+      "destino": "exp_ccc_14_18_f04_seg13",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_pedro_mata",
+      "destino": "exp_ccc_14_18_f04_seg13",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_ysidro_cano",
+      "destino": "exp_ccc_14_18_f04_seg13",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_mariano_figueroa",
+      "destino": "exp_ccc_14_18_f04_seg13",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_celedonio_aparicio",
+      "destino": "exp_ccc_14_18_f04_seg13",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "familia_chuquitapa",
+      "destino": "exp_ccc_14_18_f04_seg13",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_tinta",
+      "destino": "exp_ccc_14_18_f04_seg13",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_real_carcel",
+      "destino": "exp_ccc_14_18_f04_seg13",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "objeto_objeto_certificacion_f04",
+      "destino": "exp_ccc_14_18_f04_seg13",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_mariano_casorla",
+      "destino": "evento_comparecencia_mariano_casorla",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Declarante"
+    },
+    {
+      "origen": "evento_comparecencia_mariano_casorla",
+      "destino": "lugar_tinta",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "evento_comparecencia_mariano_casorla",
+      "destino": "objeto_objeto_certificacion_f04",
+      "tipo": "INVOLUCRA_BIEN"
+    },
+    {
+      "origen": "persona_mariano_casorla",
+      "destino": "afirmacion_01",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_01",
+      "destino": "evento_solicitud_certificacion",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_01",
+      "destino": "exp_ccc_14_18_f04_seg13",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_manuel_guancachoque",
+      "destino": "evento_solicitud_certificacion",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Solicitante"
+    },
+    {
+      "origen": "persona_mariano_casorla",
+      "destino": "evento_solicitud_certificacion",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Certificante"
+    },
+    {
+      "origen": "persona_simon_arce",
+      "destino": "evento_solicitud_certificacion",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Escribiente"
+    },
+    {
+      "origen": "evento_solicitud_certificacion",
+      "destino": "lugar_tinta",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "evento_solicitud_certificacion",
+      "destino": "objeto_objeto_certificacion_f04",
+      "tipo": "INVOLUCRA_BIEN"
+    },
+    {
+      "origen": "persona_mariano_casorla",
+      "destino": "afirmacion_02",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_02",
+      "destino": "evento_agresion_guancachoque",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_02",
+      "destino": "exp_ccc_14_18_f04_seg13",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_manuel_guancachoque",
+      "destino": "evento_agresion_guancachoque",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Victima"
+    },
+    {
+      "origen": "familia_chuquitapa",
+      "destino": "evento_agresion_guancachoque",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Agresor_Alegado"
+    },
+    {
+      "origen": "evento_agresion_guancachoque",
+      "destino": "lugar_real_carcel",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "persona_mariano_casorla",
+      "destino": "afirmacion_03",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_03",
+      "destino": "evento_motivo_prision_robo",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_03",
+      "destino": "exp_ccc_14_18_f04_seg13",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_manuel_guancachoque",
+      "destino": "evento_motivo_prision_robo",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciante"
+    },
+    {
+      "origen": "evento_motivo_prision_robo",
+      "destino": "lugar_real_carcel",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "persona_mariano_casorla",
+      "destino": "afirmacion_04",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_04",
+      "destino": "evento_desmentido_tumulto",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_04",
+      "destino": "exp_ccc_14_18_f04_seg13",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_mariano_casorla",
+      "destino": "evento_desmentido_tumulto",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Testigo"
+    },
+    {
+      "origen": "evento_desmentido_tumulto",
+      "destino": "lugar_real_carcel",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "persona_santiago_casorla",
+      "destino": "exp_ccc_14_18_f04_seg14",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_manuel_huancachoque",
+      "destino": "exp_ccc_14_18_f04_seg14",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_isidro_cano",
+      "destino": "exp_ccc_14_18_f04_seg14",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_juan_de_dios_casorla",
+      "destino": "exp_ccc_14_18_f04_seg14",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_madre_rosa",
+      "destino": "exp_ccc_14_18_f04_seg14",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_carcel",
+      "destino": "exp_ccc_14_18_f04_seg14",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "objeto_objeto_garrotes",
+      "destino": "exp_ccc_14_18_f04_seg14",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_santiago_casorla",
+      "destino": "evento_declaracion_santiago_casorla",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Testigo"
+    },
+    {
+      "origen": "persona_santiago_casorla",
+      "destino": "afirmacion_01",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_01",
+      "destino": "evento_alboroto_indios_alegado",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_01",
+      "destino": "exp_ccc_14_18_f04_seg14",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_manuel_huancachoque",
+      "destino": "evento_alboroto_indios_alegado",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Agresor_Alegado"
+    },
+    {
+      "origen": "evento_alboroto_indios_alegado",
+      "destino": "lugar_carcel",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "evento_alboroto_indios_alegado",
+      "destino": "objeto_objeto_garrotes",
+      "tipo": "INVOLUCRA_BIEN"
+    },
+    {
+      "origen": "persona_santiago_casorla",
+      "destino": "afirmacion_02",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_02",
+      "destino": "evento_amenaza_indios_alegada",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_02",
+      "destino": "exp_ccc_14_18_f04_seg14",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_juan_de_dios_casorla",
+      "destino": "evento_amenaza_indios_alegada",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Victima"
+    },
+    {
+      "origen": "persona_madre_rosa",
+      "destino": "evento_amenaza_indios_alegada",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Testigo"
+    },
+    {
+      "origen": "actor_fernando_orue",
+      "destino": "exp_ccc_14_18_f05_seg15",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_manuel_huancachoque",
+      "destino": "exp_ccc_14_18_f05_seg15",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_andres_chuquitaza",
+      "destino": "exp_ccc_14_18_f05_seg15",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_juan_antonio_repuras",
+      "destino": "exp_ccc_14_18_f05_seg15",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_diego_orue",
+      "destino": "exp_ccc_14_18_f05_seg15",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_juan_de_dios_cazorla",
+      "destino": "exp_ccc_14_18_f05_seg15",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_tupac_amaru",
+      "destino": "exp_ccc_14_18_f05_seg15",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_padre_orue",
+      "destino": "exp_ccc_14_18_f05_seg15",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_carcel",
+      "destino": "exp_ccc_14_18_f05_seg15",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_casa_corregidor",
+      "destino": "exp_ccc_14_18_f05_seg15",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "objeto_objeto_certificacion",
+      "destino": "exp_ccc_14_18_f05_seg15",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "objeto_objeto_caballo",
+      "destino": "exp_ccc_14_18_f05_seg15",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_fernando_orue",
+      "destino": "evento_comparecencia_fernando_orue",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Testigo"
+    },
+    {
+      "origen": "actor_fernando_orue",
+      "destino": "afirmacion_orue_disputa_firma",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_orue_disputa_firma",
+      "destino": "evento_solicitud_firma_certificacion",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_orue_disputa_firma",
+      "destino": "exp_ccc_14_18_f05_seg15",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "actor_fernando_orue",
+      "destino": "evento_solicitud_firma_certificacion",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Testigo"
+    },
+    {
+      "origen": "actor_manuel_huancachoque",
+      "destino": "evento_solicitud_firma_certificacion",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Agresor_Alegado"
+    },
+    {
+      "origen": "evento_solicitud_firma_certificacion",
+      "destino": "objeto_objeto_certificacion",
+      "tipo": "INVOLUCRA_BIEN"
+    },
+    {
+      "origen": "actor_fernando_orue",
+      "destino": "afirmacion_orue_rectifica_hora_alboroto",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_orue_rectifica_hora_alboroto",
+      "destino": "evento_alboroto_carcel",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_orue_rectifica_hora_alboroto",
+      "destino": "exp_ccc_14_18_f05_seg15",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "actor_fernando_orue",
+      "destino": "evento_alboroto_carcel",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Testigo"
+    },
+    {
+      "origen": "evento_alboroto_carcel",
+      "destino": "lugar_carcel",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "actor_fernando_orue",
+      "destino": "afirmacion_orue_acusacion_chuquitaza",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_orue_acusacion_chuquitaza",
+      "destino": "evento_insurgencia_y_amotinamiento_chuquitaza",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_orue_acusacion_chuquitaza",
+      "destino": "exp_ccc_14_18_f05_seg15",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "actor_andres_chuquitaza",
+      "destino": "evento_insurgencia_y_amotinamiento_chuquitaza",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Agresor_Alegado"
+    },
+    {
+      "origen": "actor_tupac_amaru",
+      "destino": "evento_insurgencia_y_amotinamiento_chuquitaza",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciado"
+    },
+    {
+      "origen": "actor_diego_orue",
+      "destino": "evento_insurgencia_y_amotinamiento_chuquitaza",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Victima"
+    },
+    {
+      "origen": "actor_padre_orue",
+      "destino": "evento_insurgencia_y_amotinamiento_chuquitaza",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Victima"
+    },
+    {
+      "origen": "evento_insurgencia_y_amotinamiento_chuquitaza",
+      "destino": "objeto_objeto_caballo",
+      "tipo": "INVOLUCRA_BIEN"
+    },
+    {
+      "origen": "persona_pedro_mata",
+      "destino": "exp_ccc_14_18_f06_seg16",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_manuel_guancachoque",
+      "destino": "exp_ccc_14_18_f06_seg16",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_antonio_valdes",
+      "destino": "exp_ccc_14_18_f06_seg16",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_parroco_interino",
+      "destino": "exp_ccc_14_18_f06_seg16",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_chuquitapa",
+      "destino": "exp_ccc_14_18_f06_seg16",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_mujer_chuquitapa",
+      "destino": "exp_ccc_14_18_f06_seg16",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_declarante_anonimo",
+      "destino": "exp_ccc_14_18_f06_seg16",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_doctrina_unspecified",
+      "destino": "exp_ccc_14_18_f06_seg16",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_pedro_mata",
+      "destino": "evento_solicitud_oficial_informe",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Juez_Subdelegado"
+    },
+    {
+      "origen": "persona_parroco_interino",
+      "destino": "evento_solicitud_oficial_informe",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Testigo"
+    },
+    {
+      "origen": "evento_solicitud_oficial_informe",
+      "destino": "lugar_doctrina_unspecified",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "persona_declarante_anonimo",
+      "destino": "afirmacion_01",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_01",
+      "destino": "evento_altercado_certificacion",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_01",
+      "destino": "exp_ccc_14_18_f06_seg16",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_declarante_anonimo",
+      "destino": "evento_altercado_certificacion",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Testigo"
+    },
+    {
+      "origen": "persona_mujer_chuquitapa",
+      "destino": "evento_altercado_certificacion",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Agresor_Alegado"
+    },
+    {
+      "origen": "persona_manuel_guancachoque",
+      "destino": "evento_altercado_certificacion",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciado"
+    },
+    {
+      "origen": "persona_pedro_mata",
+      "destino": "afirmacion_02",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_02",
+      "destino": "evento_pedimento_informe_conducta",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_02",
+      "destino": "exp_ccc_14_18_f06_seg16",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_pedro_mata",
+      "destino": "evento_pedimento_informe_conducta",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Juez_Subdelegado"
+    },
+    {
+      "origen": "persona_parroco_interino",
+      "destino": "evento_pedimento_informe_conducta",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Testigo"
+    },
+    {
+      "origen": "persona_manuel_guancachoque",
+      "destino": "evento_pedimento_informe_conducta",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciado"
+    },
+    {
+      "origen": "evento_pedimento_informe_conducta",
+      "destino": "lugar_doctrina_unspecified",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "actor_fiscal_declarante",
+      "destino": "exp_ccc_14_18_f28_seg17",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_manuel_huancachoque",
+      "destino": "exp_ccc_14_18_f28_seg17",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_antolin_ortiz",
+      "destino": "exp_ccc_14_18_f28_seg17",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_joseph_condorcanqui",
+      "destino": "exp_ccc_14_18_f28_seg17",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_agustina_falcon",
+      "destino": "exp_ccc_14_18_f28_seg17",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_atanasio_sotelo",
+      "destino": "exp_ccc_14_18_f28_seg17",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_andres_chuquitapa",
+      "destino": "exp_ccc_14_18_f28_seg17",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_doctrina_pueblo",
+      "destino": "exp_ccc_14_18_f28_seg17",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_america_meridional",
+      "destino": "exp_ccc_14_18_f28_seg17",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_fiscal_declarante",
+      "destino": "evento_emision_dictamen_1806",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Fiscal"
+    },
+    {
+      "origen": "evento_emision_dictamen_1806",
+      "destino": "lugar_doctrina_pueblo",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "actor_fiscal_declarante",
+      "destino": "afirmacion_filiacion_huancachoque",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_filiacion_huancachoque",
+      "destino": "evento_filiacion_huancachoque",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_filiacion_huancachoque",
+      "destino": "exp_ccc_14_18_f28_seg17",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "actor_manuel_huancachoque",
+      "destino": "evento_filiacion_huancachoque",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciado"
+    },
+    {
+      "origen": "actor_antolin_ortiz",
+      "destino": "evento_filiacion_huancachoque",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Padre_Allegado"
+    },
+    {
+      "origen": "actor_agustina_falcon",
+      "destino": "evento_filiacion_huancachoque",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Madre_Allegada"
+    },
+    {
+      "origen": "actor_fiscal_declarante",
+      "destino": "afirmacion_agresion_madre",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_agresion_madre",
+      "destino": "evento_agresion_agustina_falcon",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_agresion_madre",
+      "destino": "exp_ccc_14_18_f28_seg17",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "actor_manuel_huancachoque",
+      "destino": "evento_agresion_agustina_falcon",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Agresor_Alegado"
+    },
+    {
+      "origen": "actor_agustina_falcon",
+      "destino": "evento_agresion_agustina_falcon",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Victima"
+    },
+    {
+      "origen": "actor_fiscal_declarante",
+      "destino": "afirmacion_acometimiento_cacique",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_acometimiento_cacique",
+      "destino": "evento_acometimiento_chuquitapa",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_acometimiento_cacique",
+      "destino": "exp_ccc_14_18_f28_seg17",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "actor_manuel_huancachoque",
+      "destino": "evento_acometimiento_chuquitapa",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Agresor_Alegado"
+    },
+    {
+      "origen": "actor_andres_chuquitapa",
+      "destino": "evento_acometimiento_chuquitapa",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Victima"
+    },
+    {
+      "origen": "evento_acometimiento_chuquitapa",
+      "destino": "lugar_doctrina_pueblo",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "persona_juan_cazorla",
+      "destino": "exp_ccc_14_18_f28_seg18",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_juan_quinones",
+      "destino": "exp_ccc_14_18_f28_seg18",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_manuel_guancachoque",
+      "destino": "exp_ccc_14_18_f28_seg18",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_andres_chuquitapa",
+      "destino": "exp_ccc_14_18_f28_seg18",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_informante_comisionado",
+      "destino": "exp_ccc_14_18_f28_seg18",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "ayllu_tinta",
+      "destino": "exp_ccc_14_18_f28_seg18",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "ayllu_ucho",
+      "destino": "exp_ccc_14_18_f28_seg18",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_sicuani",
+      "destino": "exp_ccc_14_18_f28_seg18",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_tinta",
+      "destino": "exp_ccc_14_18_f28_seg18",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_cuzco",
+      "destino": "exp_ccc_14_18_f28_seg18",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "objeto_objeto_certificacion_f2",
+      "destino": "exp_ccc_14_18_f28_seg18",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "objeto_objeto_documentos_falsos",
+      "destino": "exp_ccc_14_18_f28_seg18",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_juan_cazorla",
+      "destino": "evento_auto_sicuani_18061108",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Ausente"
+    },
+    {
+      "origen": "evento_auto_sicuani_18061108",
+      "destino": "lugar_sicuani",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "evento_auto_sicuani_18061108",
+      "destino": "objeto_objeto_certificacion_f2",
+      "tipo": "INVOLUCRA_BIEN"
+    },
+    {
+      "origen": "persona_informante_comisionado",
+      "destino": "evento_informe_cuzco_18061118",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Escribano"
+    },
+    {
+      "origen": "evento_informe_cuzco_18061118",
+      "destino": "lugar_cuzco",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "persona_informante_comisionado",
+      "destino": "afirmacion_01_falsedad_documentos",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_01_falsedad_documentos",
+      "destino": "evento_falsificacion_documentos",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_01_falsedad_documentos",
+      "destino": "exp_ccc_14_18_f28_seg18",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_manuel_guancachoque",
+      "destino": "evento_falsificacion_documentos",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciante"
+    },
+    {
+      "origen": "persona_andres_chuquitapa",
+      "destino": "evento_falsificacion_documentos",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciado"
+    },
+    {
+      "origen": "evento_falsificacion_documentos",
+      "destino": "lugar_tinta",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "evento_falsificacion_documentos",
+      "destino": "objeto_objeto_documentos_falsos",
+      "tipo": "INVOLUCRA_BIEN"
+    },
+    {
+      "origen": "persona_informante_comisionado",
+      "destino": "afirmacion_02_insulto_recaudador",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_02_insulto_recaudador",
+      "destino": "evento_agresion_recaudador",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_02_insulto_recaudador",
+      "destino": "exp_ccc_14_18_f28_seg18",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_manuel_guancachoque",
+      "destino": "evento_agresion_recaudador",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Agresor_Alegato"
+    },
+    {
+      "origen": "persona_andres_chuquitapa",
+      "destino": "evento_agresion_recaudador",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Victima"
+    },
+    {
+      "origen": "evento_agresion_recaudador",
+      "destino": "lugar_tinta",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "persona_pedro_de_la_mata",
+      "destino": "exp_ccc_14_18_f29_seg19",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_guancachoque",
+      "destino": "exp_ccc_14_18_f29_seg19",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_agustin_valdes",
+      "destino": "exp_ccc_14_18_f29_seg19",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_francisco_munoz",
+      "destino": "exp_ccc_14_18_f29_seg19",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_clemente",
+      "destino": "exp_ccc_14_18_f29_seg19",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "ayllu_chuquitapa",
+      "destino": "exp_ccc_14_18_f29_seg19",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "ayllu_tinta",
+      "destino": "exp_ccc_14_18_f29_seg19",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "ayllu_ucho",
+      "destino": "exp_ccc_14_18_f29_seg19",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_sicuani",
+      "destino": "exp_ccc_14_18_f29_seg19",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_carcel_sicuani",
+      "destino": "exp_ccc_14_18_f29_seg19",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_pedro_de_la_mata",
+      "destino": "evento_mision_informe_subdelegado",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Juez_Subdelegado"
+    },
+    {
+      "origen": "persona_francisco_munoz",
+      "destino": "evento_mision_informe_subdelegado",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Juez_Subdelegado"
+    },
+    {
+      "origen": "evento_mision_informe_subdelegado",
+      "destino": "lugar_sicuani",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "persona_pedro_de_la_mata",
+      "destino": "afirmacion_01",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_01",
+      "destino": "evento_agresion_y_carcel",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_01",
+      "destino": "exp_ccc_14_18_f29_seg19",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_guancachoque",
+      "destino": "evento_agresion_y_carcel",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Victima"
+    },
+    {
+      "origen": "ayllu_chuquitapa",
+      "destino": "evento_agresion_y_carcel",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Agresor_Alegado"
+    },
+    {
+      "origen": "persona_pedro_de_la_mata",
+      "destino": "evento_agresion_y_carcel",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Juez_Subdelegado"
+    },
+    {
+      "origen": "evento_agresion_y_carcel",
+      "destino": "lugar_carcel_sicuani",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "persona_pedro_de_la_mata",
+      "destino": "afirmacion_02",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_02",
+      "destino": "evento_sublevacion_alegada",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_02",
+      "destino": "exp_ccc_14_18_f29_seg19",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_guancachoque",
+      "destino": "evento_sublevacion_alegada",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciado"
+    },
+    {
+      "origen": "ayllu_tinta",
+      "destino": "evento_sublevacion_alegada",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciante"
+    },
+    {
+      "origen": "ayllu_ucho",
+      "destino": "evento_sublevacion_alegada",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciante"
+    },
+    {
+      "origen": "persona_agustin_valdes",
+      "destino": "afirmacion_03",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_03",
+      "destino": "evento_informe_conducta",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_03",
+      "destino": "exp_ccc_14_18_f29_seg19",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_agustin_valdes",
+      "destino": "evento_informe_conducta",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciante"
+    },
+    {
+      "origen": "persona_guancachoque",
+      "destino": "evento_informe_conducta",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciado"
+    },
+    {
+      "origen": "evento_informe_conducta",
+      "destino": "lugar_sicuani",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "persona_manuel_huancachoque",
+      "destino": "exp_ccc_14_18_f33_seg20",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_andres_chuquitapa",
+      "destino": "exp_ccc_14_18_f33_seg20",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_fiscal_sm",
+      "destino": "exp_ccc_14_18_f33_seg20",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_munoz",
+      "destino": "exp_ccc_14_18_f33_seg20",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_subdelegado_tinta",
+      "destino": "exp_ccc_14_18_f33_seg20",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_cusco",
+      "destino": "exp_ccc_14_18_f33_seg20",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_pueblo_tinta",
+      "destino": "exp_ccc_14_18_f33_seg20",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_partido_tinta",
+      "destino": "exp_ccc_14_18_f33_seg20",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "objeto_bien_denuncios_tributarios",
+      "destino": "exp_ccc_14_18_f33_seg20",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "persona_munoz",
+      "destino": "evento_decreta_providencia_1806",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Juez_Subdelegado"
+    },
+    {
+      "origen": "persona_fiscal_sm",
+      "destino": "evento_decreta_providencia_1806",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Fiscal"
+    },
+    {
+      "origen": "persona_subdelegado_tinta",
+      "destino": "evento_decreta_providencia_1806",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Subdelegado"
+    },
+    {
+      "origen": "evento_decreta_providencia_1806",
+      "destino": "lugar_cusco",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "persona_fiscal_sm",
+      "destino": "afirmacion_01",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_01",
+      "destino": "evento_quejas_huancachoque",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_01",
+      "destino": "exp_ccc_14_18_f33_seg20",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "persona_manuel_huancachoque",
+      "destino": "evento_quejas_huancachoque",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciante"
+    },
+    {
+      "origen": "persona_andres_chuquitapa",
+      "destino": "evento_quejas_huancachoque",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Denunciado"
+    },
+    {
+      "origen": "evento_quejas_huancachoque",
+      "destino": "lugar_pueblo_tinta",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "actor_lucio_gonzalo_del_rio",
+      "destino": "exp_ccc_14_18_f34_seg21",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_agustin_chacon",
+      "destino": "exp_ccc_14_18_f34_seg21",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_matias_ugarte",
+      "destino": "exp_ccc_14_18_f34_seg21",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_cuzco",
+      "destino": "exp_ccc_14_18_f34_seg21",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "lugar_urubamba",
+      "destino": "exp_ccc_14_18_f34_seg21",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "objeto_objeto_venta_otorgada",
+      "destino": "exp_ccc_14_18_f34_seg21",
+      "tipo": "MENCIONADO_EN"
+    },
+    {
+      "origen": "actor_lucio_gonzalo_del_rio",
+      "destino": "evento_auto_judicial_1806",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Juez_Subdelegado"
+    },
+    {
+      "origen": "evento_auto_judicial_1806",
+      "destino": "Ciudad del Cuzco",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "actor_agustin_chacon",
+      "destino": "evento_notificacion_auto_1810",
+      "tipo": "PARTICIPA_EN",
+      "rol": "Escribano"
+    },
+    {
+      "origen": "evento_notificacion_auto_1810",
+      "destino": "Ciudad del Cuzco",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "actor_agustin_chacon",
+      "destino": "afirmacion_notificacion_1806",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_notificacion_1806",
+      "destino": "evento_notificacion_auto_1806",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_notificacion_1806",
+      "destino": "exp_ccc_14_18_f34_seg21",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "actor_agustin_chacon",
+      "destino": "evento_notificacion_auto_1806",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Escribano"
+    },
+    {
+      "origen": "actor_lucio_gonzalo_del_rio",
+      "destino": "evento_notificacion_auto_1806",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Notificado"
+    },
+    {
+      "origen": "evento_notificacion_auto_1806",
+      "destino": "Ciudad del Cuzco",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "actor_matias_ugarte",
+      "destino": "afirmacion_certificacion_ugarte",
+      "tipo": "DECLARO"
+    },
+    {
+      "origen": "afirmacion_certificacion_ugarte",
+      "destino": "evento_certificacion_notarial",
+      "tipo": "DESCRIBE_EVENTO"
+    },
+    {
+      "origen": "afirmacion_certificacion_ugarte",
+      "destino": "exp_ccc_14_18_f34_seg21",
+      "tipo": "EXTRAIDO_DE"
+    },
+    {
+      "origen": "actor_matias_ugarte",
+      "destino": "evento_certificacion_notarial",
+      "tipo": "ROL_EN_EVENTO",
+      "rol": "Notario"
+    },
+    {
+      "origen": "evento_certificacion_notarial",
+      "destino": "provincia de Urubamba",
+      "tipo": "OCURRE_EN"
+    },
+    {
+      "origen": "evento_certificacion_notarial",
+      "destino": "objeto_objeto_venta_otorgada",
+      "tipo": "INVOLUCRA_BIEN"
+    }
+  ],
+  "resumen": {
+    "total_nodos": 259,
+    "total_aristas": 574,
+    "por_etiqueta": {
+      "FuenteArchivistica": 21,
+      "Actor": 89,
+      "Lugar": 20,
+      "ObjetoBien": 20,
+      "EventoInstitucional": 27,
+      "EventoTestimoniado": 48,
+      "AfirmacionHistorica": 34
+    }
+  }
+}
