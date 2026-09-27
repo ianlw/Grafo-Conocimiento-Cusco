@@ -1,0 +1,190 @@
+{
+  "esquema": {
+    "total_nodos": 259,
+    "nodos_por_etiqueta": {
+      "FuenteArchivistica": 21,
+      "Actor": 89,
+      "Lugar": 20,
+      "ObjetoBien": 20,
+      "EventoInstitucional": 27,
+      "EventoTestimoniado": 48,
+      "AfirmacionHistorica": 34
+    },
+    "total_aristas": 574,
+    "aristas_por_tipo": {
+      "MENCIONADO_EN": 193,
+      "PARTICIPA_EN": 47,
+      "DECLARO": 49,
+      "DESCRIBE_EVENTO": 49,
+      "EXTRAIDO_DE": 49,
+      "ROL_EN_EVENTO": 106,
+      "OCURRE_EN": 60,
+      "INVOLUCRA_BIEN": 21
+    },
+    "aristas_validas_metamodelo": 574,
+    "aristas_invalidas_metamodelo": 0,
+    "aristas_rotas_referenciales": 0,
+    "nodos_aislados": 0,
+    "tasa_conformidad_metamodelo": 1.0,
+    "tasa_integridad_referencial": 1.0
+  },
+  "anclaje": {
+    "total_citas_evaluadas": 49,
+    "citas_coincidencia_exacta": 32,
+    "tasa_coincidencia_exacta": 0.6531,
+    "citas_anclaje_alto": 48,
+    "tasa_anclaje_alto": 0.9796,
+    "citas_anclaje_medio": 1,
+    "tasa_anclaje_medio": 0.0204,
+    "citas_riesgo_alucinacion": 0,
+    "tasa_riesgo_alucinacion": 0.0,
+    "longitud_promedio_chars": 165.7,
+    "longitud_min_chars": 80,
+    "longitud_max_chars": 398,
+    "confianza_promedio_extractor": 0.998,
+    "score_fidelidad_anclaje": 0.9898
+  },
+  "canonicalizacion": {
+    "total_actores_canonicos": 89,
+    "actores_con_variantes": 84,
+    "total_variantes_ortograficas": 121,
+    "promedio_variantes_por_actor": 1.36,
+    "ratio_consolidadas_vs_superficie": 2.36,
+    "actores_con_condicion_socioetnica": 55,
+    "tasa_condicion_socioetnica": 0.618,
+    "actores_con_cargos_registrados": 53,
+    "tasa_cargos_registrados": 0.5955,
+    "score_canonicalizacion": 0.6298
+  },
+  "epistemica": {
+    "total_afirmaciones": 34,
+    "distribucion_estados": {
+      "Desmentido_Falso": 1,
+      "Alegato_No_Comprobado": 28,
+      "Confirmado_Oficial": 4,
+      "En_Disputa": 1
+    },
+    "distribucion_tipos_declaracion": {
+      "ResolucionOficial": 5,
+      "Acusacion": 18,
+      "Confesion_Rectificacion": 3,
+      "TestimonioDirecto": 7,
+      "Sospecha": 1
+    },
+    "total_relaciones_contradiccion": 0,
+    "total_relaciones_ratificacion": 0,
+    "afirmaciones_en_disputa_o_litigio": 29,
+    "tasa_reificacion_epistemica": 1.0
+  },
+  "topologia": {
+    "densidad_grafo": 0.01718,
+    "grado_promedio": 4.43,
+    "total_componentes_conexas": 1,
+    "tamano_componente_gigante": 259,
+    "cobertura_componente_gigante": 1.0,
+    "top_actores_centralidad": [
+      {
+        "id": "actor_manuel_huancachoque",
+        "nombre": "Manuel Huancachoque",
+        "tipo": "Persona",
+        "condicion": "Desconocido",
+        "grado": 19,
+        "grado_entrada": 0,
+        "grado_salida": 19
+      },
+      {
+        "id": "persona_manuel_huancachoque",
+        "nombre": "Manuel Huancachoque",
+        "tipo": "Persona",
+        "condicion": "IndioTributario",
+        "grado": 18,
+        "grado_entrada": 0,
+        "grado_salida": 18
+      },
+      {
+        "id": "persona_manuel_guancachoque",
+        "nombre": "Manuel Huancachoque",
+        "tipo": "Persona",
+        "condicion": "IndioTributario",
+        "grado": 16,
+        "grado_entrada": 0,
+        "grado_salida": 16
+      },
+      {
+        "id": "persona_andres_chuquitapa",
+        "nombre": "Andrés Chuquitapa",
+        "tipo": "Persona",
+        "condicion": "Desconocido",
+        "grado": 15,
+        "grado_entrada": 0,
+        "grado_salida": 15
+      },
+      {
+        "id": "persona_isidro_cano",
+        "nombre": "Isidro Cano",
+        "tipo": "Persona",
+        "condicion": "Desconocido",
+        "grado": 11,
+        "grado_entrada": 0,
+        "grado_salida": 11
+      },
+      {
+        "id": "persona_chuquitapa",
+        "nombre": "Chuquitapa",
+        "tipo": "Persona",
+        "condicion": null,
+        "grado": 11,
+        "grado_entrada": 0,
+        "grado_salida": 11
+      },
+      {
+        "id": "persona_pedro_de_la_mata",
+        "nombre": "Pedro de la Mata",
+        "tipo": "Persona",
+        "condicion": "EspanolVecino",
+        "grado": 9,
+        "grado_entrada": 0,
+        "grado_salida": 9
+      },
+      {
+        "id": "persona_guancachoque",
+        "nombre": "Guancachoque",
+        "tipo": "Persona",
+        "condicion": "IndioTributario",
+        "grado": 8,
+        "grado_entrada": 0,
+        "grado_salida": 8
+      },
+      {
+        "id": "actor_manuel_guancachoque",
+        "nombre": "Manuel Guancachoque",
+        "tipo": "Persona",
+        "condicion": "IndioTributario",
+        "grado": 8,
+        "grado_entrada": 0,
+        "grado_salida": 8
+      },
+      {
+        "id": "persona_mariano_casorla",
+        "nombre": "Mariano Casorla",
+        "tipo": "Persona",
+        "condicion": "EspanolVecino",
+        "grado": 8,
+        "grado_entrada": 0,
+        "grado_salida": 8
+      }
+    ]
+  },
+  "calidad_kgcq": {
+    "score_global": 94.14,
+    "calificacion_letra": "A+",
+    "diagnostico": "Construcción sobresaliente: rigurosamente anclada al corpus y conformante al metamodelo ontológico.",
+    "subscores": {
+      "conformidad_metamodelo": 100.0,
+      "fidelidad_anclaje_textual": 98.98,
+      "conectividad_estructural": 100.0,
+      "canonicalizacion_skos": 62.98,
+      "completitud_epistemica": 100.0
+    }
+  }
+}

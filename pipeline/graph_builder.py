@@ -412,6 +412,24 @@ def extracciones_a_grafo_json(extracciones: list[ExtraccionFolio]) -> dict:
     def arista(origen, destino, tipo, props=None):
         aristas.append({"origen": origen, "destino": destino, "tipo": tipo, **(props or {})})
 
+    # Mapa de resolución de nombres e IDs de lugares a su ID en el grafo
+    mapa_lugares: dict[str, str] = {}
+    for ext_item in extracciones:
+        for l in ext_item.lugares:
+            mapa_lugares[l.id.lower()] = l.id
+            mapa_lugares[l.nombre_mencionado.lower()] = l.id
+
+    def resolver_lugar(val: Optional[str]) -> Optional[str]:
+        if not val:
+            return None
+        val_clean = val.strip().lower()
+        if val_clean in mapa_lugares:
+            return mapa_lugares[val_clean]
+        for k, lid in mapa_lugares.items():
+            if k in val_clean or val_clean in k:
+                return lid
+        return val
+
     for ext in extracciones:
         ua = ext.unidad_archivistica
         fid = ua.fragmento_id
@@ -431,25 +449,27 @@ def extracciones_a_grafo_json(extracciones: list[ExtraccionFolio]) -> dict:
             arista(oid, fid, "MENCIONADO_EN")
 
         for ev in ext.eventos_institucionales_probados:
-            nodo(ev.id, "EventoInstitucional", {"tipo": ev.tipo_evento, "categoria": ev.categoria_tematica, "fecha": ev.fecha_mencionada, "lugar": ev.lugar})
+            lugar_resuelto = resolver_lugar(ev.lugar)
+            nodo(ev.id, "EventoInstitucional", {"tipo": ev.tipo_evento, "categoria": ev.categoria_tematica, "fecha": ev.fecha_mencionada, "lugar": lugar_resuelto})
             for p in ev.participantes:
                 arista(p.actor_id, ev.id, "PARTICIPA_EN", {"rol": p.rol})
-            if ev.lugar:
-                arista(ev.id, ev.lugar, "OCURRE_EN")
+            if lugar_resuelto:
+                arista(ev.id, lugar_resuelto, "OCURRE_EN")
             for obj in ev.objetos_involucrados:
                 arista(ev.id, f"objeto_{obj.id}", "INVOLUCRA_BIEN")
 
         for af in ext.afirmaciones:
             ev = af.evento_descrito
-            nodo(ev.id, "EventoTestimoniado", {"tipo": ev.tipo_evento, "fecha_alegada": ev.fecha_mencionada})
+            lugar_ev = resolver_lugar(ev.lugar)
+            nodo(ev.id, "EventoTestimoniado", {"tipo": ev.tipo_evento, "fecha_alegada": ev.fecha_mencionada, "lugar_alegado": lugar_ev})
             nodo(af.id, "AfirmacionHistorica", {"tipo": af.tipo_declaracion, "estado": af.estado_epistemologico, "cita": af.cita_textual_evidencia[:150], "folio": af.folio, "confianza": af.confianza_extraccion})
             arista(af.declarante_id, af.id, "DECLARO")
             arista(af.id, ev.id, "DESCRIBE_EVENTO")
             arista(af.id, fid, "EXTRAIDO_DE")
             for p in ev.participantes:
                 arista(p.actor_id, ev.id, "ROL_EN_EVENTO", {"rol": p.rol})
-            if ev.lugar:
-                arista(ev.id, ev.lugar, "OCURRE_EN")
+            if lugar_ev:
+                arista(ev.id, lugar_ev, "OCURRE_EN")
             for obj in ev.objetos_involucrados:
                 arista(ev.id, f"objeto_{obj.id}", "INVOLUCRA_BIEN")
             for otro in af.contradice_afirmacion_ids:

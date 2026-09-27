@@ -17,6 +17,9 @@ Uso:
     # Ver grafo en navegador interactivo local:
     python run.py --visualizar
 
+    # Evaluar calidad y estadísticas del grafo (KGCQ):
+    python run.py --stats
+
     # Pipeline completo:
     python run.py
 
@@ -191,8 +194,18 @@ def main():
         action="store_true",
         help="Abre el visualizador web interactivo en el navegador (sin requerir Neo4j)"
     )
+    parser.add_argument(
+        "--stats",
+        action="store_true",
+        help="Calcula las estadísticas y métricas de calidad de construcción del grafo (KGCQ)"
+    )
     args = parser.parse_args()
     ruta_archivo = Path(args.archivo)
+
+    if args.stats:
+        from stats.report import generar_reporte_completo
+        generar_reporte_completo()
+        return
 
     if args.visualizar:
         from visualizar import iniciar_visualizador
