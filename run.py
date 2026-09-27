@@ -11,14 +11,22 @@ Uso:
     # Solo segmentar (sin llamar al LLM):
     python run.py --solo-segmentar
 
+    # Construir grafo desde extracciones existentes:
+    python run.py --solo-grafo
+
+    # Ver grafo en navegador interactivo local:
+    python run.py --visualizar
+
     # Pipeline completo:
     python run.py
 
-    # Con Neo4j:
-    $env:NEO4J_PASSWORD='tu_password'; python run.py
+# Con Neo4j:
+#     Linux/macOS: export NEO4J_PASSWORD='tu_password'; python run.py
+#     Windows:     $env:NEO4J_PASSWORD='tu_password'; python run.py
+#     (O definirlo en el archivo .env)
 
-Requiere:
-    - $env:GOOGLE_API_KEY='tu_api_key'
+# Requiere:
+#     - GOOGLE_API_KEY en .env o como variable de entorno
 """
 
 import argparse
@@ -91,7 +99,9 @@ def paso_extraer(ruta_archivo: Path = RUTA_TRANSCRIPCION, forzar: bool = False):
 
     if not os.environ.get("GOOGLE_API_KEY"):
         print("\n  ERROR: Variable GOOGLE_API_KEY no configurada.")
-        print("  Establécela con: $env:GOOGLE_API_KEY='tu_clave_de_api'")
+        print("  Configúrala en el archivo .env o en tu terminal:")
+        print("    Linux/macOS: export GOOGLE_API_KEY='tu_clave_de_api'")
+        print("    Windows:     $env:GOOGLE_API_KEY='tu_clave_de_api'")
         print("  Puedes obtener una en: https://aistudio.google.com/apikey")
         sys.exit(1)
 
@@ -176,8 +186,18 @@ def main():
         action="store_true",
         help="Fuerza la reextracción completa con el LLM ignorando caché previa"
     )
+    parser.add_argument(
+        "--visualizar",
+        action="store_true",
+        help="Abre el visualizador web interactivo en el navegador (sin requerir Neo4j)"
+    )
     args = parser.parse_args()
     ruta_archivo = Path(args.archivo)
+
+    if args.visualizar:
+        from visualizar import iniciar_visualizador
+        iniciar_visualizador()
+        return
 
     if args.solo_segmentar:
         paso_segmentar(ruta_archivo)

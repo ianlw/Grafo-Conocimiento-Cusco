@@ -166,11 +166,10 @@ def guardar_segmentos_json(
 
 
 if __name__ == "__main__":
-    # Sube dos niveles: pipeline/ -> GRAFO_CONOCIMIENTOS_CUSCO/ -> raíz del proyecto
-    BASE = Path(__file__).resolve().parent.parent.parent
+    BASE = Path(__file__).resolve().parent.parent
 
-    ruta_transcripcion = BASE / "Transcripcion_CC_L14E18.txt"
-    ruta_salida = BASE / "GRAFO_CONOCIMIENTOS_CUSCO" / "data" / "segmentos.jsonl"
+    ruta_transcripcion = BASE / "corpus" / "Transcripcion_CC_L14E18.txt"
+    ruta_salida = BASE / "data" / "segmentos.jsonl"
 
     print(f"[segmenter] Leyendo: {ruta_transcripcion}")
     segmentos = segmentar_expediente(ruta_transcripcion)

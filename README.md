@@ -193,9 +193,13 @@ GRAFO_CONOCIMIENTOS_CUSCO/
 ## 🚀 Requisitos Previos
 
 1. **Python 3.11 o superior** (se recomienda usar [uv](https://github.com/astral-sh/uv) o `venv`).
-2. **Neo4j:**
-   * **Opción local:** [Neo4j Desktop](https://neo4j.com/download/) (gratuito) creando una instancia llamada `GrafoCusco`.
-   * **Opción nube:** [Neo4j AuraDB Free](https://neo4j.com/cloud/aura/) (sin instalar nada).
+2. **Neo4j (Opcional si usas el visualizador web integrado):**
+   * **Opción Docker / Podman (Recomendado en Linux):**
+     ```bash
+     docker run -d --name neo4j -p 7474:7474 -p 7687:7687 -e NEO4J_AUTH=neo4j/tu_password neo4j:5
+     ```
+   * **Opción local Desktop:** [Neo4j Desktop](https://neo4j.com/download/) (disponible para Windows, macOS y Linux en formato AppImage).
+   * **Opción nube:** [Neo4j AuraDB Free](https://neo4j.com/cloud/aura/) (gratuito, sin instalar nada, accesible desde navegador).
 3. **Clave de API de Gemini:** Gratuita en [Google AI Studio](https://aistudio.google.com/apikey) (solo requerida si vas a extraer nuevos documentos).
 
 ---
@@ -204,8 +208,8 @@ GRAFO_CONOCIMIENTOS_CUSCO/
 
 ### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
-cd GRAFO_CONOCIMIENTOS_CUSCO
+git clone https://github.com/ianlw/Grafo-Conocimiento-Cusco.git
+cd Grafo-Conocimiento-Cusco
 ```
 
 ### 2. Crear y activar el entorno virtual
@@ -266,6 +270,14 @@ python run.py --archivo corpus/NombreNuevoExpediente.txt
 Para revisar cómo el segmentador divide el texto en actos jurídicos sin hacer llamadas a internet:
 ```bash
 python run.py --solo-segmentar
+```
+
+### E. Visualizador web interactivo (Sin necesidad de Neo4j)
+Abre un explorador interactivo moderno en tu navegador web local (vis-network) para explorar los 259 nodos y 574 aristas con filtros y buscador de actores:
+```bash
+python run.py --visualizar
+# o directamente:
+python visualizar.py
 ```
 
 ---

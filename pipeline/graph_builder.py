@@ -475,8 +475,8 @@ def guardar_grafo_json(grafo: dict, ruta: str | Path) -> None:
 # =====================================================================
 
 if __name__ == "__main__":
-    BASE     = Path(__file__).resolve().parent.parent.parent
-    DATA_DIR = BASE / "GRAFO_CONOCIMIENTOS_CUSCO" / "data"
+    BASE     = Path(__file__).resolve().parent.parent
+    DATA_DIR = BASE / "data"
     ruta_extracciones = DATA_DIR / "extracciones.jsonl"
 
     if not ruta_extracciones.exists():

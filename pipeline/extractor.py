@@ -253,8 +253,8 @@ def run_extraccion_completa(
 
 
 if __name__ == "__main__":
-    BASE = Path(__file__).resolve().parent.parent.parent
+    BASE = Path(__file__).resolve().parent.parent
     run_extraccion_completa(
-        ruta_transcripcion=BASE / "Transcripcion_CC_L14E18.txt",
-        ruta_salida_jsonl=BASE / "GRAFO_CONOCIMIENTOS_CUSCO" / "data" / "extracciones.jsonl",
+        ruta_transcripcion=BASE / "corpus" / "Transcripcion_CC_L14E18.txt",
+        ruta_salida_jsonl=BASE / "data" / "extracciones.jsonl",
     )
