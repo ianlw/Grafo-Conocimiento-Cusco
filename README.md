@@ -175,13 +175,21 @@ GRAFO_CONOCIMIENTOS_CUSCO/
 │   ├── segmenter.py        # Segmentador heurístico de folios y actos procesales
 │   ├── extractor.py        # Extractor LLM con JSON Schema, control de cuota y reanudación
 │   └── graph_builder.py    # Constructor del grafo y conector Cypher (MERGE) para Neo4j
-├── data/                   # Datos intermedios y respaldos exportados
+├── stats/                  # Motor de evaluación de calidad de construcción (KGCQ)
+│   ├── __init__.py
+│   ├── metrics.py          # Métricas de anclaje, conformidad, SKOS y topología
+│   └── report.py           # Generador de reportes en consola, JSON y Markdown
+├── data/                   # Datos intermedios, respaldos e informes
 │   ├── segmentos.jsonl     # Folios clasificados por el segmentador
 │   ├── extracciones.jsonl  # Instancias validadas por el extractor LLM
-│   └── grafo.json          # Respaldo estático del grafo (para Gephi, NetworkX, D3.js)
+│   ├── grafo.json          # Respaldo estático del grafo (para Gephi, NetworkX, D3.js)
+│   ├── estadisticas_calidad.json # Métricas calculadas estructuradas en JSON
+│   └── reporte_calidad.md  # Informe formal de calidad del grafo
 ├── tests/                  # Suite de pruebas unitarias
 │   ├── __init__.py
-│   └── test_ontology.py    # Validación de reglas ontológicas con datos históricos reales
+│   ├── test_ontology.py    # Validación de reglas ontológicas con datos históricos reales
+│   └── test_stats.py       # Pruebas de métricas de calidad y topología
+├── visualizar.py           # Servidor del visualizador web interactivo (2D Vis.js / 3D WebGL)
 ├── run.py                  # Orquestador del pipeline completo por línea de comandos
 ├── .env.example            # Plantilla de configuración de variables de entorno
 ├── requirements.txt        # Dependencias de Python
@@ -272,22 +280,48 @@ Para revisar cómo el segmentador divide el texto en actos jurídicos sin hacer 
 python run.py --solo-segmentar
 ```
 
-### E. Visualizador web interactivo (Sin necesidad de Neo4j)
-Abre un explorador interactivo moderno en tu navegador web local (vis-network) para explorar los 259 nodos y 574 aristas con filtros y buscador de actores:
+### E. Visualizador Web Interactivo 2D / 3D (Sin necesidad de Neo4j)
+Abre un explorador interactivo moderno en tu navegador web local en `http://localhost:8080`:
 ```bash
 python run.py --visualizar
 # o directamente:
 python visualizar.py
 ```
 
+**Características y Controles de la Interfaz:**
+* **🌌 Modo Dual 2D / 3D (WebGL):** Alterna fluidamente entre el grafo 2D de alta precisión y el grafo tridimensional inmersivo acelerado por hardware con Three.js.
+  * **Controles 3D:** Órbita con clic izquierdo, zoom con la rueda, desplazamiento con clic derecho y toggle de **Auto-rotación** (*turntable*) para presentaciones.
+  * **Cámara cinematográfica 3D:** Al hacer clic en cualquier nodo, la cámara vuela suavemente y lo enfoca en primer plano.
+* **🏷️ Control de Etiquetas de Nodos y Conexiones:**
+  * *Switch Mostrar nombres de nodos:* Permite alternar entre ver las etiquetas textuales o una vista abstracta limpia de la topología.
+  * *Switch Mostrar nombres de conexiones:* Activa u oculta las etiquetas de las aristas (`DECLARO`, `MENCIONADO_EN`, etc.) para reducir la congestión visual.
+* **◀ Panel Lateral Colapsable:** Botón flotante para ocultar o expandir el menú lateral con transición suave, permitiendo que el lienzo del grafo abarque el **100% del ancho de la pantalla**.
+* **⛶ Modo Pantalla Completa:** Integración con la `HTML5 Fullscreen API` para ocultar barras de navegación y pestañas del sistema operativo.
+* **🔗 Chips de Filtrado de Relaciones:** Activa o desactiva tipos específicos de aristas. Desactivar `MENCIONADO_EN` permite aislar instantáneamente la red del litigio (personas, eventos y testimonios).
+* **⚡ Red del Conflicto:** Botón de un solo clic para aislar a los actores y sucesos del expediente penal.
+
+---
+
 ### F. Evaluación de Calidad y Estadísticas de Construcción (KGCQ)
-Evalúa rigurosamente la calidad de la construcción del grafo frente al corpus (conformidad ontológica, anclaje textual anti-alucinaciones, canonicalización SKOS, topología e índice KGCQ):
+Evalúa rigurosamente la calidad de la construcción del grafo frente al corpus paleográfico, fundamentado en la metodología de *Ontology-grounded Automatic Knowledge Graph Construction by LLM under Wikidata schema* (Feng, Wu & Meng, KDD 2024):
 ```bash
 python run.py --stats
 # o directamente:
 python stats/report.py
 ```
-Genera reportes detallados en consola, JSON (`data/estadisticas_calidad.json`) y Markdown (`data/reporte_calidad.md`).
+
+**Resultados Obtenidos en el Grafo:**
+
+| Métrica KGCQ | Resultado | Diagnóstico |
+| :--- | :---: | :--- |
+| **Índice Compuesto Global** | **94.1 / 100 (A+)** | **Construcción sobresaliente de alta fidelidad** |
+| Conformidad con Metamodelo | 100.0% | Todas las 574 aristas respetan los dominios y rangos ontológicos |
+| Integridad Referencial | 100.0% | 0 enlaces rotos tras la resolución canónica de topónimos |
+| Fidelidad de Anclaje Textual | 98.0% | Citas respaldadas textualmente en el corpus (Fuzzy $\ge$ 85%) |
+| Riesgo de Alucinación | 0.0% | Cero testimonios huérfanos de evidencia |
+| Conectividad (Componente Gigante) | 100.0% | Red conexa integrada sin nodos aislados |
+
+Genera reportes detallados en consola, JSON estructurado ([`data/estadisticas_calidad.json`](file:///home/ian/dev/Grafo-Conocimientos-Cusco/data/estadisticas_calidad.json)) y Markdown formal ([`data/reporte_calidad.md`](file:///home/ian/dev/Grafo-Conocimientos-Cusco/data/reporte_calidad.md)).
 
 ---
 
