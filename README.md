@@ -280,6 +280,15 @@ python run.py --visualizar
 python visualizar.py
 ```
 
+### F. Evaluación de Calidad y Estadísticas de Construcción (KGCQ)
+Evalúa rigurosamente la calidad de la construcción del grafo frente al corpus (conformidad ontológica, anclaje textual anti-alucinaciones, canonicalización SKOS, topología e índice KGCQ):
+```bash
+python run.py --stats
+# o directamente:
+python stats/report.py
+```
+Genera reportes detallados en consola, JSON (`data/estadisticas_calidad.json`) y Markdown (`data/reporte_calidad.md`).
+
 ---
 
 ## 📊 Exploración y Visualización en Neo4j
@@ -338,6 +347,7 @@ pytest tests/ -v
 4. **Llanes-Padrón, D., & Pastor-Sánchez, F. J. (2017).** *Records in Contexts: el nuevo estándar del Consejo Internacional de Archivos (ICA) y su ontología RiC-O*. *Revista Española de Documentación Científica*, 40(2).
 5. **Zhang, L., et al. (2026).** *OntoEKG: An LLM-driven Pipeline for Strongly-Typed Knowledge Graph Construction*. *International Conference on Knowledge Engineering*.
 6. **Düring, M., & Eumann, U. (2013).** *Historical Network Analysis: Its Promise, Problems, and Its History*. *Zeitschrift für Historische Forschung*, 39, 137–167.
+7. **Feng, X., Wu, X., & Meng, H. (2024).** *Ontology-grounded Automatic Knowledge Graph Construction by LLM under Wikidata schema*. *Proceedings of the Human-Interpretable AI Workshop (HI-AI@KDD 2024)*, CEUR Workshop Proceedings, Vol. 3841, Paper 19. (Metodología de anclaje ontológico, evaluación de calidad y métricas de construcción de grafos con LLMs).
 
 ---
 

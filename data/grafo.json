@@ -77,7 +77,8 @@
       "id": "evento_denuncia_maltratos_chuquitapa",
       "etiqueta": "EventoTestimoniado",
       "tipo": "Denuncia",
-      "fecha_alegada": "Agosto 26 de 1806"
+      "fecha_alegada": "Agosto 26 de 1806",
+      "lugar_alegado": "lugar_tinta"
     },
     {
       "id": "afirmacion_01",
@@ -217,12 +218,14 @@
       "id": "evento_alboroto_guancachoque",
       "etiqueta": "EventoTestimoniado",
       "tipo": "Tumulto_Alboroto",
-      "fecha_alegada": "1 de agosto de 1806"
+      "fecha_alegada": "1 de agosto de 1806",
+      "lugar_alegado": "lugar_tinta"
     },
     {
       "id": "evento_sospecha_traicion_chuquitapa",
       "etiqueta": "EventoTestimoniado",
-      "tipo": "Denuncia"
+      "tipo": "Denuncia",
+      "lugar_alegado": "lugar_tinta"
     },
     {
       "id": "afirmacion_02",
@@ -237,7 +240,8 @@
       "id": "evento_ataque_capitan_orey",
       "etiqueta": "EventoTestimoniado",
       "tipo": "Tumulto_Alboroto",
-      "fecha_alegada": "En tiempo del corregidor don Antonio Reparas"
+      "fecha_alegada": "En tiempo del corregidor don Antonio Reparas",
+      "lugar_alegado": "lugar_tinta"
     },
     {
       "id": "afirmacion_03",
@@ -252,7 +256,8 @@
       "id": "evento_complicidad_tupa_amaro_y_despojo",
       "etiqueta": "EventoTestimoniado",
       "tipo": "Agresion_Fisica",
-      "fecha_alegada": "En tiempo del rebelde Tupa Amaro"
+      "fecha_alegada": "En tiempo del rebelde Tupa Amaro",
+      "lugar_alegado": "lugar_tinta"
     },
     {
       "id": "afirmacion_04",
@@ -398,7 +403,8 @@
       "id": "evento_servicio_militar_guamanchoque",
       "etiqueta": "EventoTestimoniado",
       "tipo": "ServicioMilitar",
-      "fecha_alegada": "1806"
+      "fecha_alegada": "1806",
+      "lugar_alegado": "lugar_tinta"
     },
     {
       "id": "afirmacion_servicio_guamanchoque",
@@ -412,7 +418,8 @@
     {
       "id": "evento_agresion_huancachoque",
       "etiqueta": "EventoTestimoniado",
-      "tipo": "Agresion_Fisica"
+      "tipo": "Agresion_Fisica",
+      "lugar_alegado": "lugar_plaza_tinta"
     },
     {
       "id": "afirmacion_agresion_huancachoque",
@@ -426,7 +433,8 @@
     {
       "id": "evento_motin_carcel_tinta",
       "etiqueta": "EventoTestimoniado",
-      "tipo": "Tumulto_Alboroto"
+      "tipo": "Tumulto_Alboroto",
+      "lugar_alegado": "lugar_carcel_tinta"
     },
     {
       "id": "afirmacion_tumulto_carcel",
@@ -526,7 +534,8 @@
     {
       "id": "evento_alboroto_contra_huancachoque",
       "etiqueta": "EventoTestimoniado",
-      "tipo": "Agresion_Fisica"
+      "tipo": "Agresion_Fisica",
+      "lugar_alegado": "lugar_carcel_tinta"
     },
     {
       "id": "afirmacion_01_alboroto_y_agresion",
@@ -540,7 +549,8 @@
     {
       "id": "evento_denuncia_indios_ocultos",
       "etiqueta": "EventoTestimoniado",
-      "tipo": "Ocultacion_Tributarios"
+      "tipo": "Ocultacion_Tributarios",
+      "lugar_alegado": "lugar_tinta"
     },
     {
       "id": "afirmacion_02_denuncia_ocultacion",
@@ -554,7 +564,8 @@
     {
       "id": "evento_alzamiento_chuquitapa",
       "etiqueta": "EventoTestimoniado",
-      "tipo": "Tumulto_Alboroto"
+      "tipo": "Tumulto_Alboroto",
+      "lugar_alegado": "lugar_tinta"
     },
     {
       "id": "afirmacion_03_acusacion_chuquitapa",
@@ -635,7 +646,8 @@
       "id": "evento_agresion_y_encarcelamiento_huancachoque",
       "etiqueta": "EventoTestimoniado",
       "tipo": "Agresion_Fisica",
-      "fecha_alegada": "El siguiente día de la revisita"
+      "fecha_alegada": "El siguiente día de la revisita",
+      "lugar_alegado": "lugar_carcel"
     },
     {
       "id": "afirmacion_01_robo_cacique_y_agresion",
@@ -764,7 +776,8 @@
     {
       "id": "evt_ocultacion_tributarios",
       "etiqueta": "EventoTestimoniado",
-      "tipo": "Ocultacion_Tributarios"
+      "tipo": "Ocultacion_Tributarios",
+      "lugar_alegado": "lugar_pueblo_tinta"
     },
     {
       "id": "afir_01_ocultacion_tributarios",
@@ -778,7 +791,8 @@
     {
       "id": "evt_agresion_encarcelamiento",
       "etiqueta": "EventoTestimoniado",
-      "tipo": "Agresion_Fisica"
+      "tipo": "Agresion_Fisica",
+      "lugar_alegado": "lugar_carcel_tinta"
     },
     {
       "id": "afir_02_agresion_y_encarcelamiento",
@@ -863,7 +877,8 @@
     {
       "id": "evento_encarcelamiento_huancachoque",
       "etiqueta": "EventoTestimoniado",
-      "tipo": "Agresion_Fisica"
+      "tipo": "Agresion_Fisica",
+      "lugar_alegado": "lugar_pueblo_unnamed"
     },
     {
       "id": "afirmacion_01_encarcelamiento_agresion",
@@ -877,7 +892,8 @@
     {
       "id": "evento_matriculacion_tributaria",
       "etiqueta": "EventoTestimoniado",
-      "tipo": "Revisita"
+      "tipo": "Revisita",
+      "lugar_alegado": "lugar_pueblo_unnamed"
     },
     {
       "id": "afirmacion_02_indebida_matriculacion",
@@ -974,7 +990,8 @@
     {
       "id": "evt_denuncia_51_tributarios",
       "etiqueta": "EventoTestimoniado",
-      "tipo": "Denuncia"
+      "tipo": "Denuncia",
+      "lugar_alegado": "lugar_partido_tinta"
     },
     {
       "id": "afir_01_denuncia_ocultacion",
@@ -989,7 +1006,8 @@
       "id": "evt_agresion_y_prision",
       "etiqueta": "EventoTestimoniado",
       "tipo": "Agresion_Fisica",
-      "fecha_alegada": "antes ayer"
+      "fecha_alegada": "antes ayer",
+      "lugar_alegado": "lugar_carcel_tinta"
     },
     {
       "id": "afir_02_agresion_y_atentado",
@@ -1122,7 +1140,8 @@
       "id": "evento_declaracion_guancachoque",
       "etiqueta": "EventoTestimoniado",
       "tipo": "Ratificacion_Escrito",
-      "fecha_alegada": "13 de Agosto de 1806"
+      "fecha_alegada": "13 de Agosto de 1806",
+      "lugar_alegado": "lugar_cusco"
     },
     {
       "id": "exp_ccc_14_18_f10_seg10",
@@ -1218,7 +1237,8 @@
       "id": "evento_ocultacion_tributarios_tinta",
       "etiqueta": "EventoTestimoniado",
       "tipo": "Ocultacion_Tributarios",
-      "fecha_alegada": "27 de Agosto de 1806"
+      "fecha_alegada": "27 de Agosto de 1806",
+      "lugar_alegado": "lugar_tinta"
     },
     {
       "id": "afirmacion_ocultacion_tributarios_01",
@@ -1395,7 +1415,8 @@
     {
       "id": "evento_orden_retiro_chuquitapa",
       "etiqueta": "EventoTestimoniado",
-      "tipo": "ResolucionJudicial"
+      "tipo": "ResolucionJudicial",
+      "lugar_alegado": "lugar_tinta"
     },
     {
       "id": "evento_rango_comisionado_tupac_amaru",
@@ -1415,7 +1436,8 @@
     {
       "id": "evento_motin_indios_guancachoque",
       "etiqueta": "EventoTestimoniado",
-      "tipo": "Tumulto_Alboroto"
+      "tipo": "Tumulto_Alboroto",
+      "lugar_alegado": "lugar_tinta"
     },
     {
       "id": "afirmacion_exp18_f10_03",
@@ -1530,22 +1552,26 @@
     {
       "id": "evento_solicitud_certificacion",
       "etiqueta": "EventoTestimoniado",
-      "tipo": "Solicitud_Certificacion"
+      "tipo": "Solicitud_Certificacion",
+      "lugar_alegado": "lugar_tinta"
     },
     {
       "id": "evento_agresion_guancachoque",
       "etiqueta": "EventoTestimoniado",
-      "tipo": "Agresion_Fisica"
+      "tipo": "Agresion_Fisica",
+      "lugar_alegado": "lugar_real_carcel"
     },
     {
       "id": "evento_motivo_prision_robo",
       "etiqueta": "EventoTestimoniado",
-      "tipo": "Denuncia"
+      "tipo": "Denuncia",
+      "lugar_alegado": "lugar_real_carcel"
     },
     {
       "id": "evento_desmentido_tumulto",
       "etiqueta": "EventoTestimoniado",
-      "tipo": "Tumulto_Alboroto"
+      "tipo": "Tumulto_Alboroto",
+      "lugar_alegado": "lugar_real_carcel"
     },
     {
       "id": "exp_ccc_14_18_f04_seg14",
@@ -1588,7 +1614,8 @@
     {
       "id": "evento_alboroto_indios_alegado",
       "etiqueta": "EventoTestimoniado",
-      "tipo": "Tumulto_Alboroto"
+      "tipo": "Tumulto_Alboroto",
+      "lugar_alegado": "lugar_carcel"
     },
     {
       "id": "evento_amenaza_indios_alegada",
@@ -1739,7 +1766,8 @@
       "id": "evento_alboroto_carcel",
       "etiqueta": "EventoTestimoniado",
       "tipo": "Tumulto_Alboroto",
-      "fecha_alegada": "al primer puesto del gallo"
+      "fecha_alegada": "al primer puesto del gallo",
+      "lugar_alegado": "lugar_carcel"
     },
     {
       "id": "afirmacion_orue_rectifica_hora_alboroto",
@@ -1844,7 +1872,8 @@
       "id": "evento_pedimento_informe_conducta",
       "etiqueta": "EventoTestimoniado",
       "tipo": "Denuncia",
-      "fecha_alegada": "1806-09-24"
+      "fecha_alegada": "1806-09-24",
+      "lugar_alegado": "lugar_doctrina_unspecified"
     },
     {
       "id": "exp_ccc_14_18_f28_seg17",
@@ -1965,7 +1994,8 @@
     {
       "id": "evento_acometimiento_chuquitapa",
       "etiqueta": "EventoTestimoniado",
-      "tipo": "Agresion_Fisica"
+      "tipo": "Agresion_Fisica",
+      "lugar_alegado": "lugar_doctrina_pueblo"
     },
     {
       "id": "afirmacion_acometimiento_cacique",
@@ -2072,7 +2102,8 @@
       "id": "evento_falsificacion_documentos",
       "etiqueta": "EventoTestimoniado",
       "tipo": "Denuncia",
-      "fecha_alegada": "1806"
+      "fecha_alegada": "1806",
+      "lugar_alegado": "lugar_tinta"
     },
     {
       "id": "afirmacion_01_falsedad_documentos",
@@ -2087,7 +2118,8 @@
       "id": "evento_agresion_recaudador",
       "etiqueta": "EventoTestimoniado",
       "tipo": "Agresion_Fisica",
-      "fecha_alegada": "1806"
+      "fecha_alegada": "1806",
+      "lugar_alegado": "lugar_tinta"
     },
     {
       "id": "afirmacion_02_insulto_recaudador",
@@ -2170,7 +2202,8 @@
     {
       "id": "evento_agresion_y_carcel",
       "etiqueta": "EventoTestimoniado",
-      "tipo": "Encarcelamiento"
+      "tipo": "Encarcelamiento",
+      "lugar_alegado": "lugar_carcel_sicuani"
     },
     {
       "id": "evento_sublevacion_alegada",
@@ -2180,7 +2213,8 @@
     {
       "id": "evento_informe_conducta",
       "etiqueta": "EventoTestimoniado",
-      "tipo": "Denuncia"
+      "tipo": "Denuncia",
+      "lugar_alegado": "lugar_sicuani"
     },
     {
       "id": "exp_ccc_14_18_f33_seg20",
@@ -2219,7 +2253,8 @@
     {
       "id": "evento_quejas_huancachoque",
       "etiqueta": "EventoTestimoniado",
-      "tipo": "Denuncia"
+      "tipo": "Denuncia",
+      "lugar_alegado": "lugar_pueblo_tinta"
     },
     {
       "id": "exp_ccc_14_18_f34_seg21",
@@ -2289,7 +2324,7 @@
       "tipo": "ResolucionJudicial",
       "categoria": "Judicial_Conflictos",
       "fecha": "20 de Noviembre de 1806",
-      "lugar": "Ciudad del Cuzco"
+      "lugar": "lugar_cuzco"
     },
     {
       "id": "evento_notificacion_auto_1810",
@@ -2297,13 +2332,14 @@
       "tipo": "ResolucionJudicial",
       "categoria": "Judicial_Conflictos",
       "fecha": "23 de Diciembre de 1810",
-      "lugar": "Ciudad del Cuzco"
+      "lugar": "lugar_cuzco"
     },
     {
       "id": "evento_notificacion_auto_1806",
       "etiqueta": "EventoTestimoniado",
       "tipo": "ResolucionJudicial",
-      "fecha_alegada": "26 de noviembre de 1806"
+      "fecha_alegada": "26 de noviembre de 1806",
+      "lugar_alegado": "lugar_cuzco"
     },
     {
       "id": "afirmacion_notificacion_1806",
@@ -2317,7 +2353,8 @@
     {
       "id": "evento_certificacion_notarial",
       "etiqueta": "EventoTestimoniado",
-      "tipo": "Compraventa"
+      "tipo": "Compraventa",
+      "lugar_alegado": "lugar_urubamba"
     },
     {
       "id": "afirmacion_certificacion_ugarte",
@@ -5276,7 +5313,7 @@
     },
     {
       "origen": "evento_auto_judicial_1806",
-      "destino": "Ciudad del Cuzco",
+      "destino": "lugar_cuzco",
       "tipo": "OCURRE_EN"
     },
     {
@@ -5287,7 +5324,7 @@
     },
     {
       "origen": "evento_notificacion_auto_1810",
-      "destino": "Ciudad del Cuzco",
+      "destino": "lugar_cuzco",
       "tipo": "OCURRE_EN"
     },
     {
@@ -5319,7 +5356,7 @@
     },
     {
       "origen": "evento_notificacion_auto_1806",
-      "destino": "Ciudad del Cuzco",
+      "destino": "lugar_cuzco",
       "tipo": "OCURRE_EN"
     },
     {
@@ -5345,7 +5382,7 @@
     },
     {
       "origen": "evento_certificacion_notarial",
-      "destino": "provincia de Urubamba",
+      "destino": "lugar_urubamba",
       "tipo": "OCURRE_EN"
     },
     {
