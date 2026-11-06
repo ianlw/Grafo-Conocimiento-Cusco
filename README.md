@@ -175,6 +175,9 @@ GRAFO_CONOCIMIENTOS_CUSCO/
 │   ├── segmenter.py        # Segmentador heurístico de folios y actos procesales
 │   ├── extractor.py        # Extractor LLM con JSON Schema, control de cuota y reanudación
 │   └── graph_builder.py    # Constructor del grafo y conector Cypher (MERGE) para Neo4j
+├── chat/                   # Consulta conversacional local de solo lectura
+│   ├── local_chat.py       # Planificación Gemini, recuperación Neo4j y respuesta con evidencia
+│   └── __main__.py         # Entrada para `python -m chat`
 ├── stats/                  # Motor de evaluación de calidad de construcción (KGCQ)
 │   ├── __init__.py
 │   ├── metrics.py          # Métricas de anclaje, conformidad, SKOS y topología
@@ -268,19 +271,55 @@ Segmenta el texto, consulta a Gemini para estructurar entidades y carga todo en 
 python run.py
 ```
 
-### C. Procesar un nuevo expediente del corpus
+### C. Consultar el grafo con chat local
+Con Neo4j activo y las variables de `.env` configuradas, inicia el chat:
+```bash
+python -m chat
+```
+
+El chat usa `gemini-3.1-flash-lite` (configurable con `GEMINI_MODEL`) para clasificar la pregunta y redactar la respuesta. Si Gemini devuelve un `503 UNAVAILABLE`, usa
+`gemini-flash-lite-latest` como respaldo (configurable con `GEMINI_FALLBACK_MODEL`). La recuperación
+usa consultas Cypher fijas, parametrizadas y de solo lectura. Las respuestas incluyen
+la evidencia recuperada, folio, expediente, cita textual y estado epistemológico cuando
+están disponibles.
+El chat deshabilita explícitamente el automatic function calling (AFC), porque no utiliza
+herramientas Gemini ni permite que el modelo ejecute Cypher.
+
+El chat no permite al LLM ejecutar Cypher arbitrario ni modificar Neo4j. Si no encuentra
+evidencia coincidente, devuelve una respuesta explícita sin conclusión histórica.
+
+### C.1 Evaluación contra el corpus
+La evaluación del chat está separada en dos niveles:
+
+```bash
+# Recuperación real desde Neo4j, sin consumir Gemini
+python -m pytest tests/test_chat_evaluation.py::test_corpus_case_retrieves_expected_evidence -q
+
+# Respuestas reales de Gemini; puede consumir cuota y depender de disponibilidad
+RUN_LIVE_CHAT_EVAL=1 python -m pytest \
+  tests/test_chat_evaluation.py::test_live_llm_answer_is_grounded -q
+```
+
+Los casos cubren Tinta en 1806, Chuquitapa, Manuel Huancachoque, tributarios
+ocultos, Miguel Orey, Isidro Cano, el Ayllu Tinta y la resolución de las quejas.
+La segunda evaluación no prueba que una respuesta sea históricamente verdadera por
+sí sola: comprueba que tenga evidencia recuperada, entidades y estados
+epistemológicos esperados. Los fallos deben investigarse antes de considerar el
+chat listo para uso histórico.
+
+### D. Procesar un nuevo expediente del corpus
 Para procesar cualquier otro archivo transcrito que añadas a `corpus/`:
 ```bash
 python run.py --archivo corpus/NombreNuevoExpediente.txt
 ```
 
-### D. Solo segmentar folios
+### E. Solo segmentar folios
 Para revisar cómo el segmentador divide el texto en actos jurídicos sin hacer llamadas a internet:
 ```bash
 python run.py --solo-segmentar
 ```
 
-### E. Visualizador Web Interactivo 2D / 3D (Sin necesidad de Neo4j)
+### F. Visualizador Web Interactivo 2D / 3D (Sin necesidad de Neo4j)
 Abre un explorador interactivo moderno en tu navegador web local en `http://localhost:8080`:
 ```bash
 python run.py --visualizar
@@ -302,7 +341,7 @@ python visualizar.py
 
 ---
 
-### F. Evaluación de Calidad y Estadísticas de Construcción (KGCQ)
+### G. Evaluación de Calidad y Estadísticas de Construcción (KGCQ)
 Evalúa rigurosamente la calidad de la construcción del grafo frente al corpus paleográfico, fundamentado en la metodología de *Ontology-grounded Automatic Knowledge Graph Construction by LLM under Wikidata schema* (Feng, Wu & Meng, KDD 2024):
 ```bash
 python run.py --stats
